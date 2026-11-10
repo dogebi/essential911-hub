@@ -4,6 +4,10 @@
 [Solostack Hub](https://solostack-hub.solostack-ai.workers.dev/)를 REA로 분석한 뒤, 같은 정보 구조와
 화면 설계를 **React + Rust(axum) + PostgreSQL** 스택으로 다시 구현했습니다.
 
+- 라이브(정적 스냅샷): <https://dogebi.github.io/essential911-hub/>
+- 저장소: <https://github.com/dogebi/essential911-hub>
+- 검증: Playwright E2E 21/21 통과 (API 모드 16 + 정적 모드 5)
+
 ```
 ┌───────────────────────────┐        ┌────────────────────────────┐        ┌──────────────────┐
 │ React 18 + Vite + TS      │  HTTP  │ Rust axum API              │  SQL   │ PostgreSQL 16    │
@@ -106,3 +110,15 @@ cd e2e && npm install && npx playwright install chromium && npx playwright test
 
 - 영상 메타데이터·썸네일: YouTube 공개 데이터 (`@essential911`). 저작권은 원저작자에게 있습니다.
 - 화면 설계는 Solostack Hub 공개 페이지를 참고해 재구현했습니다. 브랜드명·로고·문구는 이 프로젝트의 것입니다.
+
+## 배포 상태
+
+| 대상 | URL | 방식 |
+| --- | --- | --- |
+| 프론트엔드 | <https://dogebi.github.io/essential911-hub/> | GitHub Actions → Pages (`BASE_PATH=/essential911-hub/`, `build:static`) |
+| 딥링크 | `/v/<id>`, `/c/<slug>`, `/t/<slug>` | Pages `404.html`(index 복사본) → React Router |
+| 백엔드 | 로컬 `127.0.0.1:8099` (PostgreSQL 5434) | `deploy/Dockerfile` / `deploy/render.yaml` 로 이전 가능 |
+
+GitHub Pages는 정적 호스팅이므로 Rust API와 PostgreSQL은 그곳에서 돌지 않습니다. 배포본은 `frontend/public/data/*.json`
+스냅샷만 읽고 `/api` 호출은 0건입니다(E2E `static-mode`가 이를 강제 검증). 실서버 API를 붙이려면 빌드 시
+`VITE_API_BASE`를 지정하면 같은 번들이 그쪽을 호출합니다.

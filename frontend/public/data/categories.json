@@ -1,0 +1,26 @@
+[
+ {
+  "slug": "puzzle",
+  "name": "그림 퀴즈",
+  "description": "틀린 그림 찾기, 100% 못 맞추는 이미지 시리즈. 한 장면에서 다른 곳을 찾는 클립입니다.",
+  "video_count": 8
+ },
+ {
+  "slug": "web-demo",
+  "name": "웹앱 데모",
+  "description": "직접 만든 웹앱을 링크와 함께 남긴 클립. 지금도 열어 볼 수 있는 것들입니다.",
+  "video_count": 2
+ },
+ {
+  "slug": "daily-clip",
+  "name": "날짜 클립",
+  "description": "날짜로만 기록해 둔 짧은 컷 모음. 만든 날의 스냅샷입니다.",
+  "video_count": 13
+ },
+ {
+  "slug": "misc",
+  "name": "사운드·기타",
+  "description": "음식·음악처럼 시리즈로 묶이지 않는 단발 소재.",
+  "video_count": 2
+ }
+]

@@ -1,0 +1,551 @@
+{
+  "source": "https://www.youtube.com/@essential911",
+  "generated_at": "2026-11-10T09:20:31.334332Z",
+  "categories": [
+    {
+      "slug": "puzzle",
+      "name": "그림 퀴즈",
+      "description": "틀린 그림 찾기, 100% 못 맞추는 이미지 시리즈. 한 장면에서 다른 곳을 찾는 클립입니다.",
+      "sort_order": 1
+    },
+    {
+      "slug": "web-demo",
+      "name": "웹앱 데모",
+      "description": "직접 만든 웹앱을 링크와 함께 남긴 클립. 지금도 열어 볼 수 있는 것들입니다.",
+      "sort_order": 2
+    },
+    {
+      "slug": "daily-clip",
+      "name": "날짜 클립",
+      "description": "날짜로만 기록해 둔 짧은 컷 모음. 만든 날의 스냅샷입니다.",
+      "sort_order": 3
+    },
+    {
+      "slug": "misc",
+      "name": "사운드·기타",
+      "description": "음식·음악처럼 시리즈로 묶이지 않는 단발 소재.",
+      "sort_order": 4
+    }
+  ],
+  "tags": [
+    {
+      "slug": "그림찾기",
+      "name": "그림찾기"
+    },
+    {
+      "slug": "quiz",
+      "name": "퀴즈"
+    },
+    {
+      "slug": "webapp",
+      "name": "웹앱"
+    },
+    {
+      "slug": "netlify",
+      "name": "Netlify"
+    },
+    {
+      "slug": "clip",
+      "name": "클립"
+    },
+    {
+      "slug": "music",
+      "name": "음악"
+    },
+    {
+      "slug": "food",
+      "name": "음식"
+    },
+    {
+      "slug": "shorts",
+      "name": "쇼츠"
+    }
+  ],
+  "videos": [
+    {
+      "id": "PZosdYiDdJY",
+      "title": "GROOVE POP- 귀를 쨰려봐",
+      "description": "GROOVE POP- 귀를 쨰려봐",
+      "published_at": "2026-06-11T00:00:00Z",
+      "duration_seconds": 60,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/PZosdYiDdJY/hq720.jpg",
+      "view_count": 4,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "misc"
+      ],
+      "tags": [
+        "music",
+        "shorts"
+      ]
+    },
+    {
+      "id": "hro26BooCfw",
+      "title": "2026年3月5日",
+      "description": "",
+      "published_at": "2026-03-05T00:00:00Z",
+      "duration_seconds": 17,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/hro26BooCfw/hq720.jpg",
+      "view_count": 1585,
+      "like_count": 9,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "wGrFMP-vsNI",
+      "title": "2026年3月2日",
+      "description": "",
+      "published_at": "2026-03-02T00:00:00Z",
+      "duration_seconds": 9,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/wGrFMP-vsNI/hq720.jpg",
+      "view_count": 272,
+      "like_count": 1,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "z-PxeFo9tTE",
+      "title": "2026年3月2日",
+      "description": "",
+      "published_at": "2026-03-02T00:00:00Z",
+      "duration_seconds": 7,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/z-PxeFo9tTE/hq720.jpg",
+      "view_count": 5,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "DURE4BMJVug",
+      "title": "2026年2月26日",
+      "description": "",
+      "published_at": "2026-02-26T00:00:00Z",
+      "duration_seconds": 7,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/DURE4BMJVug/hq720.jpg",
+      "view_count": 288,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "RzV0xDJRElM",
+      "title": "2026年2月3日",
+      "description": "",
+      "published_at": "2026-02-03T00:00:00Z",
+      "duration_seconds": 15,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/RzV0xDJRElM/hq720.jpg",
+      "view_count": 0,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "1aU_vfv98lM",
+      "title": "2026年2月2日",
+      "description": "",
+      "published_at": "2026-02-02T00:00:00Z",
+      "duration_seconds": 15,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/1aU_vfv98lM/hq720.jpg",
+      "view_count": 2,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "R_ZPP7NseY0",
+      "title": "2026年2月2日",
+      "description": "",
+      "published_at": "2026-02-02T00:00:00Z",
+      "duration_seconds": 11,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/R_ZPP7NseY0/hq720.jpg",
+      "view_count": 243,
+      "like_count": 1,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "yPo6OzZR2Zo",
+      "title": "2026年1月29日",
+      "description": "",
+      "published_at": "2026-01-29T00:00:00Z",
+      "duration_seconds": 15,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/yPo6OzZR2Zo/hq720.jpg",
+      "view_count": 3,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "VB-R7WsDVbg",
+      "title": "짜장면",
+      "description": "",
+      "published_at": "2026-01-28T00:00:00Z",
+      "duration_seconds": 7,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/VB-R7WsDVbg/hq720.jpg",
+      "view_count": 10,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "misc"
+      ],
+      "tags": [
+        "food",
+        "shorts"
+      ]
+    },
+    {
+      "id": "GaV6i6jDg_s",
+      "title": "생존알라미 https://stillaiilive.netlify.app/",
+      "description": "",
+      "published_at": "2026-01-16T00:00:00Z",
+      "duration_seconds": 8,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/GaV6i6jDg_s/hq720.jpg",
+      "view_count": 99,
+      "like_count": 1,
+      "weekly_views": null,
+      "categories": [
+        "web-demo"
+      ],
+      "tags": [
+        "webapp",
+        "netlify",
+        "shorts"
+      ]
+    },
+    {
+      "id": "OnV8xTZFobk",
+      "title": "https://gptcafe.netlify.app/",
+      "description": "",
+      "published_at": "2025-12-05T00:00:00Z",
+      "duration_seconds": 2,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/OnV8xTZFobk/hq720.jpg",
+      "view_count": 2,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "web-demo"
+      ],
+      "tags": [
+        "webapp",
+        "netlify",
+        "shorts"
+      ]
+    },
+    {
+      "id": "hftrADijXBo",
+      "title": "2025年12月5日",
+      "description": "",
+      "published_at": "2025-12-05T00:00:00Z",
+      "duration_seconds": 55,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/hftrADijXBo/hq720.jpg",
+      "view_count": 9,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "xqNnGyGmtug",
+      "title": "2025年11月26日",
+      "description": "",
+      "published_at": "2025-11-26T00:00:00Z",
+      "duration_seconds": 2,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/xqNnGyGmtug/hq720.jpg",
+      "view_count": 2,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "BKaF9hMfDMc",
+      "title": "2025年11月20日",
+      "description": "",
+      "published_at": "2025-11-20T00:00:00Z",
+      "duration_seconds": 6,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/BKaF9hMfDMc/hq720.jpg",
+      "view_count": 21,
+      "like_count": 1,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "bvwMJsyqMJE",
+      "title": "2025年11月20日",
+      "description": "",
+      "published_at": "2025-11-20T00:00:00Z",
+      "duration_seconds": 8,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/bvwMJsyqMJE/hq720.jpg",
+      "view_count": 613,
+      "like_count": 4,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "P9pstErXyPA",
+      "title": "2025年10月18日",
+      "description": "",
+      "published_at": "2025-10-18T00:00:00Z",
+      "duration_seconds": 17,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/P9pstErXyPA/hq720.jpg",
+      "view_count": 1446,
+      "like_count": 3,
+      "weekly_views": null,
+      "categories": [
+        "daily-clip"
+      ],
+      "tags": [
+        "clip",
+        "shorts"
+      ]
+    },
+    {
+      "id": "xHwbIA0FhXU",
+      "title": "100% 못맞추는 그림",
+      "description": "백퍼 못찾는 이미지 찾기 -퀴",
+      "published_at": "2024-05-01T00:00:00Z",
+      "duration_seconds": 28,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/xHwbIA0FhXU/hq720.jpg",
+      "view_count": 14,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz",
+        "shorts"
+      ]
+    },
+    {
+      "id": "w-RhBLP_3-w",
+      "title": "100% 못맞추는 그림",
+      "description": "백퍼 못찾는 이미지 찾기 -퀴",
+      "published_at": "2024-05-01T00:00:00Z",
+      "duration_seconds": 28,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/w-RhBLP_3-w/hq720.jpg",
+      "view_count": 94,
+      "like_count": 1,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz",
+        "shorts"
+      ]
+    },
+    {
+      "id": "Bnye8aoWJRc",
+      "title": "100% 못맞추는 그림",
+      "description": "백퍼 못찾는 이미지 찾기 -퀴",
+      "published_at": "2024-05-01T00:00:00Z",
+      "duration_seconds": 28,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/Bnye8aoWJRc/hq720.jpg",
+      "view_count": 40,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz",
+        "shorts"
+      ]
+    },
+    {
+      "id": "5N_tpoKTugs",
+      "title": "100% 못맞추는 그림",
+      "description": "백퍼 못찾는 이미지 찾기 -퀴",
+      "published_at": "2024-04-30T00:00:00Z",
+      "duration_seconds": 28,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/5N_tpoKTugs/hq720.jpg",
+      "view_count": 109,
+      "like_count": 4,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz",
+        "shorts"
+      ]
+    },
+    {
+      "id": "6PJ1QTzep-I",
+      "title": "100% 못맞추는 그림",
+      "description": "백퍼 못찾는 이미지 찾기 -퀴즈",
+      "published_at": "2024-04-30T00:00:00Z",
+      "duration_seconds": 29,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/6PJ1QTzep-I/hq720.jpg",
+      "view_count": 25,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz",
+        "shorts"
+      ]
+    },
+    {
+      "id": "Rzw_zYxhzb0",
+      "title": "이얼 100% 못 맞추는이미지 #이미지찾기",
+      "description": "백퍼 못 맞추는 이미지",
+      "published_at": "2024-04-30T00:00:00Z",
+      "duration_seconds": 28,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/Rzw_zYxhzb0/hq720.jpg",
+      "view_count": 132,
+      "like_count": 1,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz",
+        "shorts"
+      ]
+    },
+    {
+      "id": "SSvhKvUv3ZA",
+      "title": "틀린 그림 맞추기",
+      "description": "100%, 못 맞추는 틀린 그림 맞추기",
+      "published_at": "2024-04-14T00:00:00Z",
+      "duration_seconds": 30,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/SSvhKvUv3ZA/hq720.jpg",
+      "view_count": 439,
+      "like_count": 12,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz",
+        "shorts"
+      ]
+    },
+    {
+      "id": "_ueMH1iNUO0",
+      "title": "틀린그림 찾기",
+      "description": "틀린그림 찾기",
+      "published_at": "2024-04-14T00:00:00Z",
+      "duration_seconds": 30,
+      "kind": "short",
+      "thumbnail_url": "https://i.ytimg.com/vi/_ueMH1iNUO0/hq720.jpg",
+      "view_count": 339,
+      "like_count": 17,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz",
+        "shorts"
+      ]
+    }
+  ]
+}

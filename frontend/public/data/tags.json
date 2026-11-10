@@ -1,0 +1,42 @@
+[
+ {
+  "slug": "shorts",
+  "name": "쇼츠",
+  "video_count": 25
+ },
+ {
+  "slug": "clip",
+  "name": "클립",
+  "video_count": 13
+ },
+ {
+  "slug": "그림찾기",
+  "name": "그림찾기",
+  "video_count": 8
+ },
+ {
+  "slug": "quiz",
+  "name": "퀴즈",
+  "video_count": 8
+ },
+ {
+  "slug": "netlify",
+  "name": "Netlify",
+  "video_count": 2
+ },
+ {
+  "slug": "webapp",
+  "name": "웹앱",
+  "video_count": 2
+ },
+ {
+  "slug": "food",
+  "name": "음식",
+  "video_count": 1
+ },
+ {
+  "slug": "music",
+  "name": "음악",
+  "video_count": 1
+ }
+]

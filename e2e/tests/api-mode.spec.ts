@@ -149,8 +149,10 @@ test.describe('React UI against the live API', () => {
   test('videos page sorts by popularity and searches', async ({ page, request }) => {
     const popular = await (await request.get(`${API}/api/videos?sort=popular&limit=1`)).json()
     await page.goto('/videos?sort=popular')
-    await expect(page.locator('[data-testid="video-card"]').first()).toContainText(
-      popular.items[0].title.length > 20 ? popular.items[0].title.slice(0, 10) : popular.items[0].title,
+    // the card shows a friendly title for date-only titles, so compare the link target
+    await expect(page.locator('[data-testid="video-card"]').first()).toHaveAttribute(
+      'href',
+      `/v/${popular.items[0].id}`,
     )
 
     const search = await (await request.get(`${API}/api/videos?q=${encodeURIComponent('그림')}&limit=60`)).json()
@@ -181,7 +183,7 @@ test.describe('React UI against the live API', () => {
 
     await page.goto(`/t/${target.slug}`)
     await expect(page.locator('.page-hero h1')).toContainText(target.name)
-    await expect(page.locator('.page-hero p').first()).toContainText(`${list.total}편`)
+    await expect(page.locator('.page-hero')).toContainText(`${list.total}편의 영상`)
     await expect(page.locator('[data-testid="video-card"]')).toHaveCount(list.total)
   })
 
@@ -198,9 +200,10 @@ test.describe('React UI against the live API', () => {
 
   test('navigation bar reaches every section', async ({ page }) => {
     await page.goto('/')
-    await page.getByRole('link', { name: '전체 영상' }).click()
+    const header = page.getByRole('banner')
+    await header.getByRole('link', { name: '전체 영상' }).click()
     await expect(page).toHaveURL(/\/videos$/)
-    await page.getByRole('link', { name: '태그' }).click()
+    await header.getByRole('link', { name: '태그' }).click()
     await expect(page).toHaveURL(/\/tags$/)
     await page.locator('.brand').click()
     await expect(page).toHaveURL(/\/$/)

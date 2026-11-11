@@ -1,5 +1,5 @@
 import { Link, Route, Routes } from 'react-router-dom'
-import { Footer, TopBar } from './components'
+import { Footer, ScrollToTop, TopBar } from './components'
 import HomePage from './pages/Home'
 import VideosPage from './pages/Videos'
 import DetailPage from './pages/Detail'
@@ -24,6 +24,7 @@ export default function App() {
   return (
     <>
       <TopBar />
+      <ScrollToTop />
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />

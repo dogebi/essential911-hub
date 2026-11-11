@@ -1,5 +1,5 @@
-import { useRef, useState } from 'react'
-import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { useEffect, useRef, useState } from 'react'
+import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import * as api from './api'
 import { displayTitle, formatDuration, formatViews, relativeDay } from './format'
@@ -8,6 +8,19 @@ import type { Category, Tag, VideoCard } from './types'
 export const CHANNEL_URL = 'https://www.youtube.com/@essential911'
 export const SITE_NAME = '북유모 허브'
 export const CHANNEL_NAME = '북유모'
+
+/**
+ * SPA 라우팅은 브라우저의 스크롤 복원을 타지 않는다 — 목록에서 한참 내려가 카드를 눌러도
+ * 다음 화면이 그 스크롤 위치에서 시작해 플레이어가 화면 밖에 있는 일이 생긴다.
+ * 경로가 바뀔 때마다 맨 위로 올린다(같은 경로의 필터/검색 변경은 건드리지 않는다).
+ */
+export function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [pathname])
+  return null
+}
 
 export function TopBar() {
   const { data: categories } = useQuery({ queryKey: ['categories'], queryFn: api.getCategories })

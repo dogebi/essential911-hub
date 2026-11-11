@@ -1,5 +1,6 @@
 import type {
   Category,
+  DemoCatalog,
   HomeData,
   ListQuery,
   Tag,
@@ -193,4 +194,25 @@ function detailFromSnapshot(s: Snapshot, id: string): VideoDetailData {
     embed_url: `https://www.youtube.com/embed/${card.id}?rel=0`,
   }
   return { video, related, graph_related: graph }
+}
+
+// ---------------------------------------------------------------- aimotion demos
+
+let demoPromise: Promise<DemoCatalog> | null = null
+
+/**
+ * The aimotion demo catalog is a pure static asset (`data/aimotion.json`), so it is
+ * served the same way in API and static mode — no Rust endpoint required.
+ */
+export function getDemos(): Promise<DemoCatalog> {
+  if (!demoPromise) {
+    demoPromise = (async () => {
+      const res = await fetch(`${DATA_URL}/aimotion.json`, { cache: 'no-cache' })
+      if (!res.ok) throw new Error(`demo catalog missing (${res.status})`)
+      const catalog = (await res.json()) as DemoCatalog
+      catalog.groups.sort((a, b) => a.sort_order - b.sort_order)
+      return catalog
+    })()
+  }
+  return demoPromise
 }

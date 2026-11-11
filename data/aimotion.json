@@ -1,0 +1,4254 @@
+{
+ "source": "/mnt/d/dev/cokacmotion/skills/aimotion/index.json",
+ "site": "https://dogebi.github.io/cokacmotion",
+ "repo": "https://github.com/dogebi/cokacmotion",
+ "generated_at": "2026-11-11T07:16:31Z",
+ "count": 166,
+ "group_count": 12,
+ "groups": [
+  {
+   "slug": "web-graphics",
+   "name": "웹 그래픽 기법",
+   "description": "SVG 필터, CSS 3D, Canvas 2D, 셰이더, GPU 시뮬레이션, three.js — 웹 그래픽의 기본기",
+   "sort_order": 1,
+   "demo_count": 14
+  },
+  {
+   "slug": "analog",
+   "name": "아날로그 표현",
+   "description": "수채화·유화·판화·필름·목탄·붓글씨·암실·활판·자수·네온 — 재료와 매체의 질감을 코드로",
+   "sort_order": 2,
+   "demo_count": 19
+  },
+  {
+   "slug": "web-platform",
+   "name": "웹 플랫폼 기술",
+   "description": "WebGPU 컴퓨트, Web Audio 분석, 가변 폰트 축 — 라이브러리 없이 브라우저 API로",
+   "sort_order": 3,
+   "demo_count": 3
+  },
+  {
+   "slug": "nature-optics",
+   "name": "자연 현상 · 광학 · 수학",
+   "description": "바다·구름·침식·천·군집, 빛의 간섭과 분산, 프랙털 딥 줌",
+   "sort_order": 4,
+   "demo_count": 9
+  },
+  {
+   "slug": "experimental-type",
+   "name": "실험 타이포그래피",
+   "description": "거리장·파라메트릭 글꼴·연체 물리·불·커스틱·점균·파동·모양 안 조판·슬릿스캔·스캐니메이션·레이저 각인·스텐실 — 글자에 시뮬레이션, 셰이더, 광학과 재료의 원리를 건 실험",
+   "sort_order": 5,
+   "demo_count": 21
+  },
+  {
+   "slug": "gsap-group",
+   "name": "GSAP",
+   "description": "SplitText, MorphSVG, Flip, MotionPath — PixiJS·three.js와 함께",
+   "sort_order": 6,
+   "demo_count": 6
+  },
+  {
+   "slug": "libraries",
+   "name": "유명 라이브러리",
+   "description": "d3, rough.js, Rapier2D, anime.js, Motion, Lottie, p5.js, Paper.js, Zdog, matter-js, mo.js, Babylon.js, Tone.js",
+   "sort_order": 7,
+   "demo_count": 14
+  },
+  {
+   "slug": "web-native-animation",
+   "name": "웹 네이티브 애니메이션",
+   "description": "CSS @keyframes, SVG SMIL, 스크롤 기반 애니메이션",
+   "sort_order": 8,
+   "demo_count": 3
+  },
+  {
+   "slug": "video-craft",
+   "name": "영상 표현력",
+   "description": "표정 리그·립싱크, 임팩트, 장면 전환, 멀티플레인·사진 시차, 스케일 줌, 시선 유도, 시간 재매핑, 색 보정, 전후 비교, 웹툰 칸, 팝아웃 착시, 화면비, 타임랩스, 데이터모시, 재조명, 1인칭 시점, 숏 문법, 스미어 작화, 불릿 타임 — 짧은 영상의 연출 장치",
+   "sort_order": 9,
+   "demo_count": 27
+  },
+  {
+   "slug": "type-motion",
+   "name": "타이포그래피 모션그래픽",
+   "description": "말하는 자막, 예능 자막, 손글씨 쓰기, 뜻을 연기하는 글자, 플랩 전광판, 한글 조합, 글자 뒤 피사체, 엔딩 크레딧, 광학 자간 — 글자가 주인공인 장면",
+   "sort_order": 10,
+   "demo_count": 26
+  },
+  {
+   "slug": "motion-design",
+   "name": "모션그래픽 디자인",
+   "description": "로고 리빌, 아이소메트릭 설명, 앱 소개, 방송 그래픽, 지도 경로, 아이소타입 통계, 연표, 퀴즈, 메신저 대화 — 모션 디자인의 단골 장면",
+   "sort_order": 11,
+   "demo_count": 14
+  },
+  {
+   "slug": "3d-scenes",
+   "name": "3D 장면",
+   "description": "제품 턴테이블, 분해도, 툰 셰이딩, 3D 캐릭터 리그, 틸트시프트 미니어처, 점구름 스캔, 입자 디졸브, 도미노 연쇄, 볼류메트릭 빛, 지구본 경로 — three.js로 짓는 3D 장면의 조명·재질·카메라·물리",
+   "sort_order": 12,
+   "demo_count": 10
+  }
+ ],
+ "tags": [
+  {
+   "slug": "typography",
+   "name": "타이포그래피",
+   "demo_count": 33
+  },
+  {
+   "slug": "three-js",
+   "name": "three.js",
+   "demo_count": 30
+  },
+  {
+   "slug": "shader",
+   "name": "셰이더",
+   "demo_count": 29
+  },
+  {
+   "slug": "gsap",
+   "name": "GSAP",
+   "demo_count": 17
+  },
+  {
+   "slug": "analog",
+   "name": "아날로그 재료",
+   "demo_count": 16
+  },
+  {
+   "slug": "3d",
+   "name": "3D",
+   "demo_count": 15
+  },
+  {
+   "slug": "opentype",
+   "name": "opentype.js",
+   "demo_count": 13
+  },
+  {
+   "slug": "physics",
+   "name": "물리",
+   "demo_count": 11
+  },
+  {
+   "slug": "camera",
+   "name": "카메라·시차",
+   "demo_count": 11
+  },
+  {
+   "slug": "particles",
+   "name": "입자",
+   "demo_count": 10
+  },
+  {
+   "slug": "procedural",
+   "name": "절차 생성",
+   "demo_count": 10
+  },
+  {
+   "slug": "optics",
+   "name": "광학·빛",
+   "demo_count": 9
+  },
+  {
+   "slug": "data-viz",
+   "name": "데이터 시각화",
+   "demo_count": 9
+  },
+  {
+   "slug": "transition",
+   "name": "전환·리빌",
+   "demo_count": 9
+  },
+  {
+   "slug": "simulation",
+   "name": "시뮬레이션",
+   "demo_count": 8
+  },
+  {
+   "slug": "d3",
+   "name": "d3",
+   "demo_count": 6
+  },
+  {
+   "slug": "color",
+   "name": "색·조명",
+   "demo_count": 6
+  },
+  {
+   "slug": "character",
+   "name": "캐릭터",
+   "demo_count": 5
+  },
+  {
+   "slug": "css",
+   "name": "CSS",
+   "demo_count": 4
+  },
+  {
+   "slug": "gpu",
+   "name": "GPU 컴퓨트",
+   "demo_count": 4
+  },
+  {
+   "slug": "svg",
+   "name": "SVG",
+   "demo_count": 4
+  },
+  {
+   "slug": "ui-scene",
+   "name": "UI·주석",
+   "demo_count": 4
+  },
+  {
+   "slug": "time",
+   "name": "시간 연출",
+   "demo_count": 4
+  },
+  {
+   "slug": "audio",
+   "name": "오디오·사운드",
+   "demo_count": 3
+  },
+  {
+   "slug": "captions",
+   "name": "자막·타이틀",
+   "demo_count": 3
+  },
+  {
+   "slug": "geo-data",
+   "name": "지도 데이터",
+   "demo_count": 3
+  },
+  {
+   "slug": "canvas",
+   "name": "Canvas 2D",
+   "demo_count": 2
+  },
+  {
+   "slug": "babylon",
+   "name": "Babylon.js",
+   "demo_count": 1
+  },
+  {
+   "slug": "lottie",
+   "name": "Lottie",
+   "demo_count": 1
+  },
+  {
+   "slug": "motion",
+   "name": "Motion",
+   "demo_count": 1
+  },
+  {
+   "slug": "paperjs",
+   "name": "Paper.js",
+   "demo_count": 1
+  },
+  {
+   "slug": "pixijs",
+   "name": "PixiJS",
+   "demo_count": 1
+  },
+  {
+   "slug": "svg-filter",
+   "name": "SVG 필터",
+   "demo_count": 1
+  },
+  {
+   "slug": "tone-js",
+   "name": "Tone.js",
+   "demo_count": 1
+  },
+  {
+   "slug": "webgpu",
+   "name": "WebGPU",
+   "demo_count": 1
+  },
+  {
+   "slug": "zdog",
+   "name": "Zdog",
+   "demo_count": 1
+  },
+  {
+   "slug": "anime-js",
+   "name": "anime.js",
+   "demo_count": 1
+  },
+  {
+   "slug": "freehand",
+   "name": "freehand",
+   "demo_count": 1
+  },
+  {
+   "slug": "matter-js",
+   "name": "matter-js",
+   "demo_count": 1
+  },
+  {
+   "slug": "mojs",
+   "name": "mo.js",
+   "demo_count": 1
+  },
+  {
+   "slug": "p5js",
+   "name": "p5.js",
+   "demo_count": 1
+  },
+  {
+   "slug": "roughjs",
+   "name": "rough.js",
+   "demo_count": 1
+  },
+  {
+   "slug": "experimental-type",
+   "name": "실험 타이포그래피",
+   "demo_count": 1
+  },
+  {
+   "slug": "video-craft",
+   "name": "영상 표현력",
+   "demo_count": 1
+  }
+ ],
+ "demos": [
+  {
+   "id": "01-svg-ink",
+   "number": 1,
+   "title": "먹 한 방울",
+   "tech": "SVG 필터 · feTurbulence + feDisplacementMap",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "svg-filter",
+    "svg"
+   ],
+   "libraries": [],
+   "points": [
+    "먹 레이어 하나 = 필터 두 단계",
+    "setup — 번진 먹을 굽는다",
+    "젖은 먹",
+    "frame — 싼 필터 하나"
+   ],
+   "scene": "한지(섬유결이 비치는 아이보리 종이, 아래쪽은 찢긴 가장자리 너머 검은 펠트) 위로 먹 한 방울이 카메라 쪽에서 떨어진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/01-svg-ink/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/01-svg-ink/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/01-svg-ink/NOTES.md"
+  },
+  {
+   "id": "02-css-popup",
+   "number": 2,
+   "title": "펼쳐지는 종이 마을",
+   "tech": "CSS 3D 변형 · perspective + preserve-3d",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "css",
+    "3d"
+   ],
+   "libraries": [],
+   "points": [
+    "카메라 = perspective + 회전된 world",
+    "접힘선에 놓인 transform-origin = 경첩",
+    "카드 = 인쇄된 종이",
+    "카드의 인쇄는 setup 이후 절대 바뀌지 않는다"
+   ],
+   "scene": "어두운 호두나무 책상 위에서 금박 테두리와 「종이 마을 · 펼쳐 보세요」 글씨가 찍힌 천 장정 팝업북이 어둠 속에서 떠오른다(0–0.45 s).",
+   "live_url": "https://dogebi.github.io/cokacmotion/02-css-popup/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/02-css-popup/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/02-css-popup/NOTES.md"
+  },
+  {
+   "id": "03-coral-growth",
+   "number": 3,
+   "title": "자라는 산호",
+   "tech": "Canvas 2D 절차적 생성 · Space Colonization",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "canvas",
+    "procedural"
+   ],
+   "libraries": [],
+   "points": [
+    "Space colonization",
+    "크라운 모양",
+    "구워 두고 t로 읽기",
+    "파이프 모델 두께"
+   ],
+   "scene": "햇빛이 비스듬히 내려오는 얕은 바다. 수면 아래에서 본 물결 무늬가 화면 위쪽에서 일렁이고, 모래 바닥에는 커스틱(물결이 모은 빛) 그물이 천천히 흐른다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/03-coral-growth/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/03-coral-growth/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/03-coral-growth/NOTES.md"
+  },
+  {
+   "id": "04-sketch-diagram",
+   "number": 4,
+   "title": "손으로 그린 설명",
+   "tech": "rough.js + perfect-freehand · 손그림 렌더링",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "roughjs",
+    "freehand"
+   ],
+   "libraries": [
+    "rough.js",
+    "perfect-freehand"
+   ],
+   "points": [
+    "획(stroke)이 단위다",
+    "하나의 펜 시간표",
+    "수채 번짐",
+    "프레임 렌더"
+   ],
+   "scene": "스탠드 빛이 비치는 스케치북 한 장(종이 결, 옅은 점 격자, 아래는 책상).",
+   "live_url": "https://dogebi.github.io/cokacmotion/04-sketch-diagram/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/04-sketch-diagram/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/04-sketch-diagram/NOTES.md"
+  },
+  {
+   "id": "05-fbm-nebula",
+   "number": 5,
+   "title": "흐르는 성운",
+   "tech": "WebGL2 프래그먼트 셰이더 · 도메인 워핑 fBm",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "shader",
+    "procedural"
+   ],
+   "libraries": [],
+   "points": [
+    "fBm",
+    "도메인 워핑",
+    "부드러운 발광층",
+    "색"
+   ],
+   "scene": "검은 별밭 가운데에서 보라·청록·주황 가스가 바깥으로 번지며 피어나고(0–3.6초), 가스가 천천히 휘감기며 흐르는 동안 카메라가 다가간다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/05-fbm-nebula/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/05-fbm-nebula/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/05-fbm-nebula/NOTES.md"
+  },
+  {
+   "id": "06-aurora-raymarch",
+   "number": 6,
+   "title": "오로라, 빛의 커튼",
+   "tech": "WebGL2 볼류메트릭 레이마칭",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "커튼 = 수평면 위의 리본 + 수직 면",
+    "패스 0 — 거리장 굽기",
+    "패스 1 — 볼륨 레이마칭",
+    "구간별 해석 적분"
+   ],
+   "scene": "북쪽을 바라보는 호숫가의 밤(9초). 검은 화면에서 별과 산, 가문비나무 실루엣이 떠오르고, 왼쪽 지평선 너머에서 시작한 초록 커튼이 오른쪽 위 하늘 꼭대기까지 대각선으로 걸쳐 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/06-aurora-raymarch/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/06-aurora-raymarch/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/06-aurora-raymarch/NOTES.md"
+  },
+  {
+   "id": "07-sdf-planet",
+   "number": 7,
+   "title": "고리를 두른 행성",
+   "tech": "SDF 레이마칭 · 셰이더 하나로 만든 3D",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "shader",
+    "3d"
+   ],
+   "libraries": [],
+   "points": [
+    "SDF 장면과 구 추적(sphere tracing)",
+    "고리 = 평면 + 1D 광학 깊이 프로파일",
+    "고리의 빛 = 얇은 판의 단일 산란",
+    "그림자 두 방향"
+   ],
+   "scene": "고리 평면 바로 아래(−2.6°)에서 거의 옆으로 본 행성으로 시작한다. 햇빛을 받은 고리가 가는 빛줄로 행성 앞을 가로지르고, 그 고리의 그림자가 북반구에 굵은 띠로 드리운다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/07-sdf-planet/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/07-sdf-planet/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/07-sdf-planet/NOTES.md"
+  },
+  {
+   "id": "08-caustics",
+   "number": 8,
+   "title": "수영장 바닥의 빛",
+   "tech": "WebGL2 셰이더 · 굴절 코스틱",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "shader",
+    "optics"
+   ],
+   "libraries": [],
+   "points": [
+    "해석적 수면",
+    "패스 1 — 코스틱 스플랫",
+    "잎 그림자",
+    "패스 2 — 장면"
+   ],
+   "scene": "맑은 날 수영장을 비스듬히 내려다본다(카메라가 천천히 내려앉는다). 어둠에서 떠오른 화면에 햇빛이 차오르며 12.5 cm 타일 바닥 위로 빛의 그물(코스틱)이 춤추기 시작하고, 진한 파란 레인 라인과 끝의 T자, 타일 줄눈이 물결에 따라 일렁여 보인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/08-caustics/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/08-caustics/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/08-caustics/NOTES.md"
+  },
+  {
+   "id": "09-gpu-galaxy",
+   "number": 9,
+   "title": "20만 개의 별",
+   "tech": "WebGL2 포인트 스프라이트 · 버텍스 셰이더 궤도",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "shader",
+    "character"
+   ],
+   "libraries": [],
+   "points": [
+    "별 21만 개 = 점 스프라이트 한 번의 drawArrays(POINTS)",
+    "플럭스 보존 스프라이트",
+    "먼지와 HII",
+    "풀린 별빛(diffuse)"
+   ],
+   "scene": "어둠 속에서 나선은하가 떠오른다. 세로 화면에 맞춰 장축을 비스듬히 세운 사진 같은 정면 구도: 금빛 중심부, 푸른 바깥 팔, 오목한 안쪽 가장자리를 따라 가는 갈색 먼지띠, 팔을 따라 박힌 분홍 HII 매듭이 보인다(0–2 s).",
+   "live_url": "https://dogebi.github.io/cokacmotion/09-gpu-galaxy/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/09-gpu-galaxy/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/09-gpu-galaxy/NOTES.md"
+  },
+  {
+   "id": "10-curl-flow",
+   "number": 10,
+   "title": "보이지 않는 바람",
+   "tech": "GPU 파티클 · 컬 노이즈 + 핑퐁 텍스처",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "procedural"
+   ],
+   "libraries": [],
+   "points": [
+    "상태 = 텍스처 두 장",
+    "이류(fragment shader, main.js:66)",
+    "보이지 않는 구",
+    "흔적"
+   ],
+   "scene": "깊은 남색 어둠에서 시작한다. 0–2.2 s에 빛나는 연기선이 아래에서부터 차오르며 보이지 않던 상승기류가 드러난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/10-curl-flow/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/10-curl-flow/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/10-curl-flow/NOTES.md"
+  },
+  {
+   "id": "11-reaction-diffusion",
+   "number": 11,
+   "title": "스스로 그리는 무늬",
+   "tech": "GPGPU 반응-확산 · Gray–Scott",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "simulation",
+    "gpu"
+   ],
+   "libraries": [],
+   "points": [
+    "상태 = RGBA32F 텍스처 하나",
+    "Gray–Scott 한 스텝",
+    "공간·시간에 따라 변하는 feed/kill",
+    "씨앗"
+   ],
+   "scene": "어두운 청록 바닥 위, 0초에 씨앗 하나가 희미하게 빛난다. 카메라는 2.3배로 다가가 있고, 씨앗이 호박색 구슬로 부풀었다가 스스로 둘로 갈라지며(유사분열) 고리 모양 군락을 이룬다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/11-reaction-diffusion/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/11-reaction-diffusion/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/11-reaction-diffusion/NOTES.md"
+  },
+  {
+   "id": "12-stable-fluids",
+   "number": 12,
+   "title": "물속에 퍼지는 잉크",
+   "tech": "GPU 유체 시뮬레이션 · Stable Fluids",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "simulation"
+   ],
+   "libraries": [],
+   "points": [
+    "격자",
+    "서브스텝 순서",
+    "야코비 압력 30회",
+    "잉크 이류: MacCormack"
+   ],
+   "scene": "수면에서 비스듬히 내려오는 빛줄기가 깊은 남청색 물속을 비추고, 맨 위에는 커스틱이 일렁이며 부유 입자가 떠다닌다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/12-stable-fluids/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/12-stable-fluids/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/12-stable-fluids/NOTES.md"
+  },
+  {
+   "id": "13-glass-jellyfish",
+   "number": 13,
+   "title": "유리 해파리",
+   "tech": "three.js 물리 기반 재질 · 투과 + 블룸 후처리",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "three-js",
+    "3d",
+    "physics"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "유리 갓 = 닫힌 두께 껍질 + MeshPhysicalMaterial",
+    "투과(refraction) 버퍼 활용",
+    "안에서 켜지는 빛",
+    "촉수·구완 = 시간 지연(follow-the-leader) 닫힌 식"
+   ],
+   "scene": "완전한 어둠에서 시작해 수면 쪽 빛줄기(god rays)와 함께 유리 같은 해파리가 화면 아래쪽에서 떠오른다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/13-glass-jellyfish/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/13-glass-jellyfish/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/13-glass-jellyfish/NOTES.md"
+  },
+  {
+   "id": "14-instanced-coral",
+   "number": 14,
+   "title": "피어나는 산호초",
+   "tech": "three.js 인스턴싱 · 수천 개의 폴립",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "three-js",
+    "3d"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "폴립 = 파라미터만 가진 인스턴스 지오메트리",
+    "배치 = 피보나치 점 + 법선 정렬",
+    "개화 파동 = 인스턴스마다 숫자 하나",
+    "보이지 않는 폴립은 아예 만들지 않음"
+   ],
+   "scene": "검정에서 밝아지며 낮은 시점의 산호초가 보인다. 폴립이 모두 움츠러든 산호 머리(장미·보라·민트 빛 돔 6개)와 주황 가지산호, 물결무늬 모래 위에서 일렁이는 커스틱 빛, 위쪽에서 들어오는 은빛 물고기 떼.",
+   "live_url": "https://dogebi.github.io/cokacmotion/14-instanced-coral/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/14-instanced-coral/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/14-instanced-coral/NOTES.md"
+  },
+  {
+   "id": "15-geo-globe",
+   "number": 15,
+   "title": "지구 위를 나는 길",
+   "tech": "d3-geo · 실제 해안선 + 정사영",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "d3",
+    "geo-data"
+   ],
+   "libraries": [
+    "d3",
+    "world-atlas"
+   ],
+   "points": [
+    "d3-geo 파이프라인 하나",
+    "육지 (main.js:386–399)",
+    "낮과 밤의 경계 (main.js:401–419)",
+    "빛 (main.js:421–461)"
+   ],
+   "scene": "0–2.6 s 등장 — 어두운 지구가 빠르게 돌며 들어온다. 그동안 태양이 서쪽에서 들어와(새벽) 유럽·아프리카·인도가 밝아지고, 동아시아는 밤으로 남아 도시 불빛이 켜져 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/15-geo-globe/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/15-geo-globe/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/15-geo-globe/NOTES.md"
+  },
+  {
+   "id": "16-rapier-marbles",
+   "number": 16,
+   "title": "쏟아지는 구슬",
+   "tech": "Rapier2D (WebAssembly) 물리 · 미리 굽기",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "physics"
+   ],
+   "libraries": [
+    "Rapier2D"
+   ],
+   "points": [
+    "물리는 실제 단위로 (sim.js)",
+    "2D에 없는 물리: 뒷판 마찰 (sim.js:113–124)",
+    "기하 (sim.js:15–56)",
+    "미리 굽기 (sim.js:62–145, main.js:37–38)"
+   ],
+   "scene": "0–0.7 s 등장 — 어두운 데서 호두나무 틀, 참나무 판, 황동 깔때기와 핀 삼각형, 유리 반사가 드러난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/16-rapier-marbles/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/16-rapier-marbles/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/16-rapier-marbles/NOTES.md"
+  },
+  {
+   "id": "17-hangul-particles",
+   "number": 17,
+   "title": "글자가 된 별",
+   "tech": "WebGL2 포인트 스프라이트 · 텍스트 샘플링",
+   "group": "web-graphics",
+   "group_name": "웹 그래픽 기법",
+   "tags": [
+    "shader",
+    "character"
+   ],
+   "libraries": [],
+   "points": [
+    "텍스트 샘플링",
+    "대응 짓기",
+    "위치 = t의 닫힌 함수",
+    "소프트 원형 스프라이트"
+   ],
+   "scene": "어둠 속에서 은청색 나선은하가 떠오른다. 팔이 둘이고, 안쪽이 바깥보다 빨리 도는 차등 회전을 한다. 1.2 s부터 별들이 안쪽부터 차례로 은하를 떠나 소용돌이치며 모인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/17-hangul-particles/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/17-hangul-particles/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/17-hangul-particles/NOTES.md"
+  },
+  {
+   "id": "18-watercolor",
+   "number": 18,
+   "title": "번지는 수채화",
+   "tech": "WebGL2 GPGPU · 물과 안료 시뮬레이션 (Curtis 1997 방식)",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "simulation",
+    "gpu"
+   ],
+   "libraries": [],
+   "points": [
+    "종이",
+    "얕은 물 층",
+    "접촉선 고정",
+    "물 갱신 + 안료 + 모세관 + 붓"
+   ],
+   "scene": "어두운 화판 위에 황목(cold-press) 수채화지가 마스킹 테이프로 붙어 있다. 종이는 둥근 돌기와 섬유가 보이는 높이장이다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/18-watercolor/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/18-watercolor/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/18-watercolor/NOTES.md"
+  },
+  {
+   "id": "19-impasto",
+   "number": 19,
+   "title": "두껍게 바른 유화",
+   "tech": "WebGL2 · 붓질 기반 렌더링 + 높이맵 조명",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "color",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "절차적 장면",
+    "곡선 붓질 생성",
+    "한 번의 인스턴스 드로",
+    "획 정점 셰이더"
+   ],
+   "scene": "번트 시에나로 초벌한 리넨 캔버스가 갤러리 조명 아래 놓여 있다. 씨실과 날실이 엇갈리는 결이 보인다. 화면은 소용돌이 근처에 살짝 다가가 있다가 3.6초까지 물러난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/19-impasto/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/19-impasto/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/19-impasto/NOTES.md"
+  },
+  {
+   "id": "20-woodcut",
+   "number": 20,
+   "title": "목판화 한 장",
+   "tech": "절차적 판각 + WebGL2 잉크 인쇄 셰이더",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "procedural"
+   ],
+   "libraries": [],
+   "points": [
+    "모양 마스크",
+    "정확한 거리 변환",
+    "톤 = 선 굵기",
+    "외곽선, 거품, 손톱"
+   ],
+   "scene": "어두운 작업대에 벚나무 판목 하나가 놓여 있다. 판목에는 밑그림(한시타)이 붙어 있고, 카메라는 큰 파도의 물마루에 바짝 다가가 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/20-woodcut/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/20-woodcut/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/20-woodcut/NOTES.md"
+  },
+  {
+   "id": "21-risograph",
+   "number": 21,
+   "title": "리소그래프 두 도",
+   "tech": "WebGL2 · 별색 망점 분판 + 판 어긋남 + 곱하기 겹쳐 찍기",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "분판",
+    "AM 망점",
+    "고르지 않은 잉크막",
+    "겹쳐 찍기"
+   ],
+   "scene": "리소그래프의 배지 트레이를 위에서 내려다본다. 화면 위쪽은 기계 몸체이고, 그 창으로 형광 분홍 드럼이 보인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/21-risograph/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/21-risograph/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/21-risograph/NOTES.md"
+  },
+  {
+   "id": "22-super8",
+   "number": 22,
+   "title": "여름날의 8mm 필름",
+   "tech": "WebGL2 후처리 · 영사기 게이트 흔들림·깜빡임·먼지·할레이션",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "장면: 선형 복사휘도 HDR",
+    "할레이션 피라미드",
+    "필름과 영사기",
+    "노출"
+   ],
+   "scene": "어두운 방에서 영사기 램프가 켜진다(필라멘트가 주황에서 흰색으로 데워짐). 처음 0.5초는 긁히고 누렇게 바랜 투명 리더가 지나가고, 스플라이스가 게이트를 넘어가며 화면이 한 번 툭 튄다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/22-super8/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/22-super8/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/22-super8/NOTES.md"
+  },
+  {
+   "id": "23-vhs",
+   "number": 23,
+   "title": "1997년 비디오테이프",
+   "tech": "WebGL2 후처리 · YIQ 색 번짐·트래킹 노이즈·브라운관",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "procedural"
+   ],
+   "libraries": [],
+   "points": [
+    "캠코더",
+    "녹화",
+    "재생",
+    "빛 피라미드"
+   ],
+   "scene": "화면 가득 다가선 브라운관 TV다. 위아래로 휜 유리 가장자리와 검은 플라스틱 베젤이 보이고, 아래 베젤에는 스피커 슬롯과 초록 전원 LED가 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/23-vhs/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/23-vhs/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/23-vhs/NOTES.md"
+  },
+  {
+   "id": "24-paper-stopmotion",
+   "number": 24,
+   "title": "종이 인형 극장",
+   "tech": "Canvas 2D · 12fps 스톱모션 + 손으로 오린 종이",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "canvas",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "종이를 오리는 과정",
+    "잘린 단면의 흰 심",
+    "종이 결",
+    "그림자는 높이에서"
+   ],
+   "scene": "남색 판지 무대 위의 밤바다, 9.5초. 처음에는 조명이 꺼져 있다가 0.8초 동안 켜진다. 오린 파도 네 줄(뒤일수록 흐린 청회색, 앞일수록 짙은 남색, 앞쪽 세 줄은 마루마다 크림색 거품 조각을 덧붙임)이 손으로 앞뒤로 밀리며 출렁이고, 붉은 돛배가 파도 사이에서 까딱이며 오른쪽으로 간다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/24-paper-stopmotion/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/24-paper-stopmotion/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/24-paper-stopmotion/NOTES.md"
+  },
+  {
+   "id": "25-charcoal",
+   "number": 25,
+   "title": "목탄 스케치",
+   "tech": "WebGL2 · 종이 결에 걸리는 목탄 + 문지름·지우개",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "종이 이(tooth) 높이장",
+    "목탄 침착",
+    "옆으로 눕힌 막대",
+    "찰필·티슈 문지름"
+   ],
+   "scene": "제도판에 붙은 앵그르지 한 장(가로 줄무늬 결이 보이는 크림색 종이, 왼쪽 위에서 비스듬히 비추는 조명), 10초.",
+   "live_url": "https://dogebi.github.io/cokacmotion/25-charcoal/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/25-charcoal/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/25-charcoal/NOTES.md"
+  },
+  {
+   "id": "26-engraving",
+   "number": 26,
+   "title": "동판에 새긴 달",
+   "tech": "WebGL2 셰이더 · 명암을 선의 굵기로 (판화 해칭)",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "달은 그림이 아니라 \"어둡기 D\"를 계산하는 함수",
+    "테의 그림자",
+    "판화가의 말로 옮기기: 선 가족 세 개",
+    "선 하나의 모양"
+   ],
+   "scene": "등불 아래 호두나무 작업대에 광택 나는 동판이 놓여 있다(0–0.6초 밝아짐). 판 위로 창빛 반사가 천천히 흐른다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/26-engraving/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/26-engraving/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/26-engraving/NOTES.md"
+  },
+  {
+   "id": "27-marbling",
+   "number": 27,
+   "title": "물 위의 마블링",
+   "tech": "수학적 마블링 · 잉크 방울과 빗질의 닫힌식 변형 (Jaffer·Lu)",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "잉크 막 = 다각형, 동작 = 평면의 닫힌식 사상",
+    "적응 세분",
+    "움직이는 송곳",
+    "체크포인트"
+   ],
+   "scene": "우윳빛 사이즈(수조 물) 위로 창빛이 비친다. 맨 아래에는 수조의 호두나무 테두리(자막 자리).",
+   "live_url": "https://dogebi.github.io/cokacmotion/27-marbling/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/27-marbling/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/27-marbling/NOTES.md"
+  },
+  {
+   "id": "28-webgpu-particles",
+   "number": 28,
+   "title": "백만 개의 입자",
+   "tech": "WebGPU 컴퓨트 셰이더 · 입자 100만 개 중력 시뮬레이션",
+   "group": "web-platform",
+   "group_name": "웹 플랫폼 기술",
+   "tags": [
+    "webgpu",
+    "shader",
+    "particles",
+    "simulation"
+   ],
+   "libraries": [],
+   "points": [
+    "입자 1,048,576개",
+    "은하 핵의 궤도는 JS에서 적분",
+    "스텝마다 쓰는 값은 setup에서 미리 한 번에 쓴다",
+    "동적 오프셋 uniform"
+   ],
+   "scene": "별이 깔린 어둠 속에서 원반은하 두 개가 화면 위아래에 떠오른다(0–0.9 s). 위쪽 은하는 궤도면에 거의 누워 있고 아래쪽 은하는 58° 기울어져 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/28-webgpu-particles/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/28-webgpu-particles/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/28-webgpu-particles/NOTES.md"
+  },
+  {
+   "id": "29-audio-sync",
+   "number": 29,
+   "title": "소리가 그리는 빛",
+   "tech": "Web Audio · OfflineAudioContext 합성 + FFT 분석 동기화",
+   "group": "web-platform",
+   "group_name": "웹 플랫폼 기술",
+   "tags": [
+    "audio"
+   ],
+   "libraries": [],
+   "points": [
+    "합성(synth.js, OfflineAudioContext 48 kHz 스테레오)",
+    "컨볼루션 리버브",
+    "분석(analysis.js, 순수 JS, 우리가 짠 FFT)",
+    "밴드 레벨"
+   ],
+   "scene": "9.6초짜리 짧은 곡(D장조 5음 음계)에 맞춰 밤하늘 같은 어둠 한가운데에서 빛의 꽃이 핀다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/29-audio-sync/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/29-audio-sync/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/29-audio-sync/NOTES.md"
+  },
+  {
+   "id": "30-kinetic-type",
+   "number": 30,
+   "title": "움직이는 글자",
+   "tech": "가변 폰트 · font-variation-settings 굵기 축 + 글자 단위 모션",
+   "group": "web-platform",
+   "group_name": "웹 플랫폼 기술",
+   "tags": [
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "가변 폰트",
+    "우리가 직접 하는 조판",
+    "음절의 모습 = 신호들의 합",
+    "메아리"
+   ],
+   "scene": "깊은 남색 화면에서 내레이션 \"작은 소리가 / 큰 울림이 된다\"가 음절 단위로 말해지듯 움직인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/30-kinetic-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/30-kinetic-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/30-kinetic-type/NOTES.md"
+  },
+  {
+   "id": "31-ik-character",
+   "number": 31,
+   "title": "손을 뻗는 아이",
+   "tech": "2D 뼈대 · FABRIK 역기구학 + 스키닝",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "d3"
+   ],
+   "libraries": [
+    "d3"
+   ],
+   "points": [
+    "뼈대와 스키닝 (rig.js, main.js:376–510)",
+    "종이 조각 메시 (rig.js:213–290)",
+    "걷기와 발 IK (main.js:44–120, 186–210)",
+    "FABRIK + 관절 제한 (rig.js:79–109, main.js:211–242)"
+   ],
+   "scene": "어둠 속에서 뼈대(뼈 34개)와 삼각형 메시 선이 먼저 걷는다. 배경(해 질 녘 하늘, 산, 언덕)이 밝아진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/31-ik-character/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/31-ik-character/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/31-ik-character/NOTES.md"
+  },
+  {
+   "id": "32-dataviz-motion",
+   "number": 32,
+   "title": "숫자가 움직일 때",
+   "tech": "d3 · 데이터 전환 애니메이션 (막대 순위 → 산키 → 지도)",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "d3",
+    "geo-data",
+    "data-viz",
+    "transition"
+   ],
+   "libraries": [
+    "d3",
+    "world-atlas"
+   ],
+   "points": [
+    "데이터와 곡선 (layout.js)",
+    "막대 순위 경주",
+    "부드러운 순위",
+    "축 재조정"
+   ],
+   "scene": "설명형(익스플레이너) 데이터 영상이다. 아시아 8개 컨테이너 항만의 물동량을 세 가지 그림으로 보여 준다. 세 장면 내내 같은 물체 8개가 같은 색을 유지한 채 모양만 바꾼다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/32-dataviz-motion/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/32-dataviz-motion/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/32-dataviz-motion/NOTES.md"
+  },
+  {
+   "id": "33-ocean",
+   "number": 33,
+   "title": "노을 진 바다",
+   "tech": "WebGL2 · FFT 해양 파도 (Tessendorf) + 대기 산란",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "스펙트럼",
+    "시간 발전",
+    "유도 스펙트럼",
+    "역FFT"
+   ],
+   "scene": "수면 3.6 m 높이에서 해를 마주 본다. 시작할 때 해는 수평선 위 2.2°에 있고, 바다는 잔물결에 낮은 너울이 겹친 잔잔한 상태다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/33-ocean/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/33-ocean/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/33-ocean/NOTES.md"
+  },
+  {
+   "id": "34-clouds",
+   "number": 34,
+   "title": "빛이 지나는 구름",
+   "tech": "WebGL2 볼류메트릭 레이마칭 · 다중 산란 근사 + 빛내림",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "노이즈 굽기",
+    "밀도",
+    "날씨 맵",
+    "구름 레이마칭"
+   ],
+   "scene": "150 m 언덕에서 계곡 너머 해(고도 25°)를 올려다본다. 화면 위쪽에는 높이 5 km에 가까운 적란운 직전의 큰 적운(congestus)이 서 있고, 둘레에 작은 적운들이 흩어져 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/34-clouds/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/34-clouds/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/34-clouds/NOTES.md"
+  },
+  {
+   "id": "35-erosion",
+   "number": 35,
+   "title": "빗물이 깎은 산",
+   "tech": "GPGPU 수력 침식 · 파이프 모델 + 퇴적",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "simulation",
+    "gpu"
+   ],
+   "libraries": [],
+   "points": [
+    "상태: 512×512 격자, RGBA32F 텍스처 세 장",
+    "지형 생성",
+    "반복 1회 = 전체 격자 패스 3개",
+    "FLUX"
+   ],
+   "scene": "0–1 s 등장 — 검은 화면에서 아침 햇빛을 받은 산괴가 드러난다. 능선이 날카로운 산이고, 위쪽에는 눈이 있고 아래쪽 완만한 비탈에는 숲이 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/35-erosion/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/35-erosion/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/35-erosion/NOTES.md"
+  },
+  {
+   "id": "36-cloth",
+   "number": 36,
+   "title": "바람에 날리는 비단",
+   "tech": "XPBD 천 시뮬레이션 · 위치 기반 동역학 미리 굽기",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "physics",
+    "simulation"
+   ],
+   "libraries": [],
+   "points": [
+    "시뮬레이션 (sim.js, setup에서 한 번)",
+    "입자와 시간 간격",
+    "제약",
+    "Long-range attachment"
+   ],
+   "scene": "0–1.5 s 등장 — 어두운 스튜디오다. 진홍 비단 한 폭(1.0×1.5 m)이 두 개의 황동 핀에 가는 줄로 매달려 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/36-cloth/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/36-cloth/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/36-cloth/NOTES.md"
+  },
+  {
+   "id": "37-fracture",
+   "number": 37,
+   "title": "깨지는 유리",
+   "tech": "보로노이 파괴 + Rapier2D 물리 미리 굽기",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "d3",
+    "physics"
+   ],
+   "libraries": [
+    "d3",
+    "Rapier2D"
+   ],
+   "points": [
+    "충돌점 중심 보로노이 (fracture.js)",
+    "유한한 균열 속도 (fracture.js:153–219, main.js:291)",
+    "시간 재매핑 (main.js:42)",
+    "조각의 운명과 Rapier2D 굽기 (sim.js)"
+   ],
+   "scene": "어두운 방에서 화면이 밝아진다. 나무 창틀 너머로 초점이 나간 밤의 도시(창문 불빛과 가로등이 보케로 번진 모습)가 보인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/37-fracture/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/37-fracture/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/37-fracture/NOTES.md"
+  },
+  {
+   "id": "38-murmuration",
+   "number": 38,
+   "title": "찌르레기 군무",
+   "tech": "보이드 알고리즘 · 수천 마리 군집 미리 굽기",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "particles"
+   ],
+   "libraries": [],
+   "points": [
+    "시뮬레이션 (sim.js, setup에서 굽기)",
+    "위상적 이웃",
+    "힘",
+    "정보를 가진 소수"
+   ],
+   "scene": "0–2.3 s 등장 — 해가 막 진 뒤의 하늘이다. 왼쪽 지평선은 주황으로 타고, 위로 갈수록 라벤더를 지나 짙은 남색이 된다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/38-murmuration/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/38-murmuration/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/38-murmuration/NOTES.md"
+  },
+  {
+   "id": "39-thin-film",
+   "number": 39,
+   "title": "비눗방울 무지개",
+   "tech": "스펙트럼 박막 간섭 · 두께장 흐름",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "optics"
+   ],
+   "libraries": [],
+   "points": [
+    "스펙트럼 박막 반사율",
+    "CIE 1931 → sRGB를 가중치로 접기",
+    "두께장 h(s, t)",
+    "방울 모양과 두 벽"
+   ],
+   "scene": "어두운 정원(흐린 보케 불빛) 아래쪽에서 갓 불어 낸 비눗방울이 떠오르며 출렁인다(0–2.7초). 막이 아직 두꺼워서 (≈1.5 µm) 거의 투명한 은빛에 분홍·초록이 옅게 비치고, 꼭대기에만 작은 무지개 고리가 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/39-thin-film/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/39-thin-film/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/39-thin-film/NOTES.md"
+  },
+  {
+   "id": "40-prism",
+   "number": 40,
+   "title": "빛을 나누는 프리즘",
+   "tech": "스펙트럼 광선 추적 · 파장별 굴절 (분산)",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "optics"
+   ],
+   "libraries": [],
+   "points": [
+    "파장별 굴절률 — Sellmeier",
+    "스펙트럼 광선 추적",
+    "두 번째 프리즘",
+    "광선 → 빛 띠 텍스처"
+   ],
+   "scene": "어두운 방, 바닥은 옅은 돌(스크린 역할), 뒤는 어두운 벽. 공기에는 먼지가 떠다닌다. 0.3초부터 위쪽 틈(슬릿)으로 들어온 흰 빛의 띠가 일정한 속도로 내려와(빛의 앞머리가 진행) 1초쯤 유리 프리즘(SF11 고밀도 플린트, 꼭지각 55°, 꼭짓점이 오른쪽)에 닿는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/40-prism/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/40-prism/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/40-prism/NOTES.md"
+  },
+  {
+   "id": "41-deep-zoom",
+   "number": 41,
+   "title": "끝없는 맨델브로트",
+   "tech": "섭동 이론 딥 줌 · 고정밀 기준 궤도 + GPU 델타",
+   "group": "nature-optics",
+   "group_name": "자연 현상 · 광학 · 수학",
+   "tags": [
+    "camera"
+   ],
+   "libraries": [],
+   "points": [
+    "고정밀 기준점 — BigInt 고정소수점",
+    "미니브로트의 크기와 방향",
+    "섭동 반복 (GPU, float32)",
+    "글리치 방지 — Zhuoran 재기준(rebasing)"
+   ],
+   "scene": "똑바로 선(가시가 위, 심장형이 아래) 맨델브로트 집합 전체로 시작해 0.3초 머문 뒤 가속하여, 시호스 밸리로 초당 약 2.1자릿수(×130)의 일정한 속도로 파고든다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/41-deep-zoom/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/41-deep-zoom/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/41-deep-zoom/NOTES.md"
+  },
+  {
+   "id": "42-calligraphy",
+   "number": 42,
+   "title": "붓으로 쓴 한 글자",
+   "tech": "붓 물리 모델 · 먹 머금음·필압·비백 + 화선지 번짐",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "physics",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "획 스켈레톤",
+    "눌린 붓털의 발자국",
+    "96가닥의 털",
+    "먹 머금음"
+   ],
+   "scene": "검은 모포 위에 화선지 한 장이 깔려 있다. 가장자리는 손으로 뜬 종이처럼 들쭉날쭉하고 섬유가 삐져나와 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/42-calligraphy/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/42-calligraphy/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/42-calligraphy/NOTES.md"
+  },
+  {
+   "id": "43-darkroom",
+   "number": 43,
+   "title": "암실에서 떠오르는 사진",
+   "tech": "WebGL2 · 현상 반응 (잠상 → 은 입자) + 안전등",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "particles"
+   ],
+   "libraries": [],
+   "points": [
+    "골목 장면",
+    "젖은 자갈",
+    "네거티브와 인화지 곡선",
+    "브로마이드 드래그"
+   ],
+   "scene": "붉은 안전등만 켜진 암실을 위에서 내려다본다. 스테인리스 싱크 위에 현상액·정지액·정착액 트레이 세 개가 나란히 놓여 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/43-darkroom/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/43-darkroom/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/43-darkroom/NOTES.md"
+  },
+  {
+   "id": "44-polaroid",
+   "number": 44,
+   "title": "폴라로이드가 떠오르기까지",
+   "tech": "WebGL2 · 즉석 필름 시약 확산 + 색 현상 단계",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "여름 장면",
+    "같은 함수를 두 번 굽는다",
+    "퍼짐 시각",
+    "시약 두께"
+   ],
+   "scene": "여름 바닷가의 밝은 빛 속에서, 민트색 즉석카메라가 초점이 흐린 바다·하늘·모래를 배경으로 화면 위쪽을 채운다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/44-polaroid/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/44-polaroid/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/44-polaroid/NOTES.md"
+  },
+  {
+   "id": "45-stained-glass",
+   "number": 45,
+   "title": "빛이 머무는 유리창",
+   "tech": "WebGL2 · 색유리 투과광 + 납선 + 바닥에 맺힌 빛",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "d3",
+    "shader"
+   ],
+   "libraries": [
+    "d3"
+   ],
+   "points": [
+    "돌 창살과 영역",
+    "유리 조각 = 보로노이 셀 ∩ 영역",
+    "납 띠(came)",
+    "돌"
+   ],
+   "scene": "어두운 석조 예배당의 끝벽에 지름 6.8m의 장미창이 있다. 카메라는 창 아래 바닥 가까이에 서서 창을 올려다보다가 천천히 물러나며 바닥 쪽으로 고개를 숙인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/45-stained-glass/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/45-stained-glass/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/45-stained-glass/NOTES.md"
+  },
+  {
+   "id": "46-letterpress",
+   "number": 46,
+   "title": "꾹 눌러 찍은 활판",
+   "tech": "높이맵 활자 + 잉크 압착 셰이더 · 활판 인쇄",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "typography",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "활자 = 몸통 + 수염 + 면",
+    "수염(beard)",
+    "판 짜기",
+    "텍스처"
+   ],
+   "scene": "작은 클램셸(조개형) 활판 인쇄기를 위에서 내려다본다. 화면 위쪽 절반은 판(chase)에 짜 넣은 납 활자, 아래쪽 절반은 경첩으로 이어진 압반(platen)이다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/46-letterpress/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/46-letterpress/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/46-letterpress/NOTES.md"
+  },
+  {
+   "id": "47-embroidery",
+   "number": 47,
+   "title": "한 땀 한 땀 수놓은 꽃",
+   "tech": "절차적 자수 · 땀 경로 + 실 광택 셰이더",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader",
+    "data-viz",
+    "procedural",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "땀 생성 (stitches.js)",
+    "작업 순서와 속도",
+    "그리기 3패스",
+    "바늘과 작업 실"
+   ],
+   "scene": "자작나무 수틀(위쪽에 놋쇠 나사 조임쇠)에 팽팽히 끼운 천연 리넨, 수틀 밖 천은 방사형 주름으로 처져 있고 아래쪽 천 위에 잘라 둔 분홍·초록·금색 실 토막이 놓여 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/47-embroidery/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/47-embroidery/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/47-embroidery/NOTES.md"
+  },
+  {
+   "id": "48-scratch-art",
+   "number": 48,
+   "title": "긁어서 드러나는 무지개",
+   "tech": "WebGL2 · 스크래치 페이퍼 (긁기 마스크 + 왁스 부스러기)",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "획 설계",
+    "손의 시계 τ",
+    "긁기 마스크",
+    "보드 합성"
+   ],
+   "scene": "짙은 호두나무 탁자 위의 스크래치 보드(검은 왁스 코팅, 아래에 무지개 인쇄 카드). 왼쪽 위 등불에 왁스가 은은히 빛난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/48-scratch-art/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/48-scratch-art/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/48-scratch-art/NOTES.md"
+  },
+  {
+   "id": "49-zoetrope",
+   "number": 49,
+   "title": "돌아가는 조이트로프",
+   "tech": "회전 원통 + 틈새 스트로보 · 실제 원리로 만든 움직임",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "움직임은 그림을 바꿔서가 아니라 기하에서 나온다",
+    "장면 = 해석적 광선 추적",
+    "등빛과 그림자",
+    "셔터 적분"
+   ],
+   "scene": "어두운 방, 왼쪽 위 텅스텐 등불 아래 참나무 탁자 위의 조이트로프: 깎은 호두나무 받침과 놋쇠 축, 호두나무 몸통, 검은 옻칠 띠에 금선과 마름모 장식, 위아래 놋쇠 테, 열두 개의 세로 틈새.",
+   "live_url": "https://dogebi.github.io/cokacmotion/49-zoetrope/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/49-zoetrope/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/49-zoetrope/NOTES.md"
+  },
+  {
+   "id": "50-neon",
+   "number": 50,
+   "title": "밤거리의 네온사인",
+   "tech": "WebGL2 · 유리관 기체 방전 발광 + 벽 반사광",
+   "group": "analog",
+   "group_name": "아날로그 표현",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "한 줄 관 중심선",
+    "기체·코팅",
+    "선광원 반사광",
+    "벽 지도"
+   ],
+   "scene": "비 내린 밤, 붉은 벽돌 벽에 커피집 네온사인이 걸려 있다. 카메라는 젖은 보도 바로 위 낮은 곳(0.36m)에서 벽을 올려다본다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/50-neon/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/50-neon/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/50-neon/NOTES.md"
+  },
+  {
+   "id": "51-topo-type",
+   "number": 51,
+   "title": "등고선 글자",
+   "tech": "부호 거리장 · 등치선 · 거리장 보간 모핑",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "글자 → 거리장",
+    "거리장 보간 모핑",
+    "등심선(바다)",
+    "땅"
+   ],
+   "scene": "어두운 탁자 위에 인쇄된 지형도 한 장이 놓여 있다. 종이에는 테두리 선(가는 선 + 굵은 선 + 그 사이 흑백 눈금 막대)과 격자 십자 표시가 찍혀 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/51-topo-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/51-topo-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/51-topo-type/NOTES.md"
+  },
+  {
+   "id": "52-parametric-hangul",
+   "number": 52,
+   "title": "코드로 짠 한글",
+   "tech": "파라메트릭 글꼴 · 한글 모아쓰기 규칙 · 획 골격 오프셋",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "낱자 = 획 골격",
+    "모아쓰기",
+    "외곽선 = 골격 오프셋",
+    "대비 = 타원 펜"
+   ],
+   "scene": "크림색 종이 위에서 바우하우스·스위스 팔레트(크림, 먹, 주홍)로 진행한다. 화면의 모든 글자는 폰트 파일 없이 코드(`face.js`)가 매 프레임 획 골격에서 만든 외곽선이다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/52-parametric-hangul/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/52-parametric-hangul/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/52-parametric-hangul/NOTES.md"
+  },
+  {
+   "id": "53-swiss-grid",
+   "number": 53,
+   "title": "격자 위의 리듬",
+   "tech": "가변 폰트 폭 맞춤(wdth·wght·opsz·GRAD) · 모듈 그리드 조판",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "폭 표 굽기",
+    "잉크 기준 맞춤",
+    "표 뒤집기",
+    "안무"
+   ],
+   "scene": "120 bpm(한 박 0.5 s). 국제 타이포그래피 양식(스위스 스타일)의 움직이는 포스터다. 오프화이트 바탕에 검정, 빨강 하나만 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/53-swiss-grid/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/53-swiss-grid/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/53-swiss-grid/NOTES.md"
+  },
+  {
+   "id": "54-title-sequence",
+   "number": 54,
+   "title": "오려 낸 제목",
+   "tech": "컷아웃 그래픽 · 가위 자국 윤곽 · 2프레임 홀드(12fps) · 매치 컷",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "experimental-type"
+   ],
+   "libraries": [],
+   "points": [
+    "글자를 종이로 (trace.js)",
+    "가위질 (paper.js:65 scissor)",
+    "포즈 = 손으로 다시 놓기",
+    "종이의 질감과 두께"
+   ],
+   "scene": "가상의 1959년 영화 「아홉 번째 계단」(THE NINTH STEP)의 오프닝 타이틀이다. 10초 동안 다섯 숏이 재즈처럼 끊어지며 이어진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/54-title-sequence/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/54-title-sequence/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/54-title-sequence/NOTES.md"
+  },
+  {
+   "id": "55-truchet-type",
+   "number": 55,
+   "title": "타일로 짠 글자",
+   "tech": "다중 스케일 트루셰 타일 · 모서리 점유 기반 타일 선택",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "procedural"
+   ],
+   "libraries": [],
+   "points": [
+    "타일 어휘: 호로 하는 마칭 스퀘어(5비트)",
+    "모서리 점유 → 쿼드트리",
+    "실(스미스 타일)과 90° 회전",
+    "도는 동안 바뀌는 잉크"
+   ],
+   "scene": "따뜻한 종이 위에 크기가 다른 정사각 타일(120·60·30·15px)이 화면 전체에 깔려 있다. 타일마다 반지름 s/2의 사분원 실이 대각 두 모서리를 감싼다(스미스 트루셰 타일).",
+   "live_url": "https://dogebi.github.io/cokacmotion/55-truchet-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/55-truchet-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/55-truchet-type/NOTES.md"
+  },
+  {
+   "id": "56-ribbon-text",
+   "number": 56,
+   "title": "글자의 강",
+   "tech": "SDF 글리프 아틀라스 · 회전 최소화 프레임 위 글자 배치 · 인스턴싱 · 피사계 심도",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "shader",
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "배회 모양",
+    "합류 모양",
+    "곡선",
+    "회전 최소화 프레임"
+   ],
+   "scene": "짙은 남색 어둠 속을 금빛 글자의 강 여덟 줄기가 3D 곡선을 따라 흐른다. 강마다 시 한 줄을 되풀이해 싣고 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/56-ribbon-text/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/56-ribbon-text/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/56-ribbon-text/NOTES.md"
+  },
+  {
+   "id": "57-quilling-type",
+   "number": 57,
+   "title": "종이 띠로 세운 글자",
+   "tech": "글리프 윤곽 → 세운 종이 띠 · 말림이 풀리는 띠 · 부드러운 그림자",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "three-js",
+    "opentype",
+    "typography",
+    "analog"
+   ],
+   "libraries": [
+    "three.js",
+    "opentype.js"
+   ],
+   "points": [
+    "윤곽 → 띠 경로",
+    "띠 메시와 풀리는 코일",
+    "채움 무늬",
+    "빛과 그림자"
+   ],
+   "scene": "낮고 가까운 시점. 빛을 마주 보는 역광이고, 피사계 심도가 얕아 앞뒤 종이가 흐리다. \"온\"의 ㅗ 왼쪽 끝 모서리에 테라코타색 띠 뭉치(아르키메데스 코일)가 톡 튀어나온다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/57-quilling-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/57-quilling-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/57-quilling-type/NOTES.md"
+  },
+  {
+   "id": "58-pixel-sort",
+   "number": 58,
+   "title": "정렬된 소란",
+   "tech": "GPU 픽셀 정렬(비토닉 정렬망) · 밝기 구간 분할 정렬 · 색수차",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "gpu",
+    "optics"
+   ],
+   "libraries": [],
+   "points": [
+    "포스터 (BASE, shaders.js:151)",
+    "구간 시작점 (분할 정렬 트릭)",
+    "키 (shaders.js:192)",
+    "부등식 점검"
+   ],
+   "scene": "해 질 녘 포스터 한 장이 9.6초 동안 녹았다가 되돌아온다. 배경은 남색에서 보라·자홍·산호·호박색으로 내려가는 하늘이고, 수평선에 반쯤 걸린 해와 부서진 반사광이 깔린 바다가 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/58-pixel-sort/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/58-pixel-sort/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/58-pixel-sort/NOTES.md"
+  },
+  {
+   "id": "59-glyph-mosaic",
+   "number": 59,
+   "title": "글자로 빚은 등대",
+   "tech": "9단 굵기 글리프 SDF 아틀라스 · 휘도→굵기 하프톤 · 레이마칭 장면",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "shader",
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "구분점",
+    "SDF 구 추적",
+    "바다",
+    "하늘"
+   ],
+   "scene": "화면 전체가 36열 × 64행(한 칸 30 px)의 한글 격자다. 짧은 시 한 편이 왼쪽 위에서부터 읽는 순서대로 이어 쓰여 있고, 단어 사이는 가운뎃점 `·`이다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/59-glyph-mosaic/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/59-glyph-mosaic/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/59-glyph-mosaic/NOTES.md"
+  },
+  {
+   "id": "60-jelly-type",
+   "number": 60,
+   "title": "말랑한 글자",
+   "tech": "XPBD 연체(거리·면적 제약) · 글리프 외곽선 삼각분할 · 충돌",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "d3",
+    "opentype",
+    "typography"
+   ],
+   "libraries": [
+    "d3",
+    "opentype.js"
+   ],
+   "points": [
+    "메시: 외곽선 → 연체 (mesh.js)",
+    "외곽선",
+    "윤곽 방향",
+    "내부 점"
+   ],
+   "scene": "연보라 배경지 위에 창문 모양의 햇빛이 비스듬히 걸린 파스텔 스튜디오가 크림색에서 서서히 밝아진다. 화면 위에서 산딸기색 젤리 글자 말(Pretendard Black 600 px, 약 490×540)이 떨어진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/60-jelly-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/60-jelly-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/60-jelly-type/NOTES.md"
+  },
+  {
+   "id": "61-shadow-type",
+   "number": 61,
+   "title": "그림자로 읽는 글자",
+   "tech": "두 글자 돌출의 교집합(투영 조형) · 다중 광원 그림자",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "three-js",
+    "opentype",
+    "typography"
+   ],
+   "libraries": [
+    "three.js",
+    "opentype.js"
+   ],
+   "points": [
+    "조형 = 두 돌출의 정확한 교집합",
+    "충실도 (보고)",
+    "왜 벽 둘이 아니라 벽과 탁자인가",
+    "빛"
+   ],
+   "scene": "어두운 갤러리. 공중에 뜬 흰 석고 조형이 기울어진 축으로 천천히 구른다. 오른쪽 뒤에서 호박색 투광기가 조리개를 열 듯 네모난 빛을 벽에 연다(0.1–1.3 s).",
+   "live_url": "https://dogebi.github.io/cokacmotion/61-shadow-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/61-shadow-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/61-shadow-type/NOTES.md"
+  },
+  {
+   "id": "62-fogged-glass",
+   "number": 62,
+   "title": "김 서린 창",
+   "tech": "김 밀도장 · 물방울 입자(병합·흘러내림) · 굴절 법선 맵 · 보케",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "particles",
+    "optics"
+   ],
+   "libraries": [],
+   "points": [
+    "글씨 → 획 (strokes.js, setup)",
+    "래스터화",
+    "이진화와 세선화",
+    "그래프 추적"
+   ],
+   "scene": "밤에 방 안에서 창밖을 본다. 유리 너머 도시의 불빛은 초점 밖이라 칠각 조리개 모양의 보케 원반으로 맺힌다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/62-fogged-glass/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/62-fogged-glass/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/62-fogged-glass/NOTES.md"
+  },
+  {
+   "id": "63-burning-type",
+   "number": 63,
+   "title": "타고 남은 글자",
+   "tech": "도착 시간장(16방향 다익스트라) · 불꽃 전선 셰이딩(흑체 색) · 불씨 입자",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "particles"
+   ],
+   "libraries": [],
+   "points": [
+    "도착 시간장 T(x) (field.js, setup에서 약 0.35 s)",
+    "격자와 탐색",
+    "속도장",
+    "국소 앞선 속도"
+   ],
+   "scene": "어둠 속에서 크림색 종이 한 장이 화면 가득 떠오른다. 비스듬한 섬유결과 얼룩이 보인다. 종이에는 \"기억은 / 타지 / 않는다\"(나눔명조 ExtraBold 300 px)가 불에 타지 않는 무언가로 쓰여 있어, 아주 희미한 결로만 보인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/63-burning-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/63-burning-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/63-burning-type/NOTES.md"
+  },
+  {
+   "id": "64-caustic-type",
+   "number": 64,
+   "title": "빛으로 쓴 글자",
+   "tech": "역설계 커스틱(최적 수송·포아송 반복) · 광자 메시 래스터화 · 분산",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "optics"
+   ],
+   "libraries": [],
+   "points": [
+    "역설계 — 원하는 밝기 → 렌즈",
+    "목표 밝기",
+    "관례 (Ferraro)",
+    "반복"
+   ],
+   "scene": "어두운 방의 엷은 트래버틴 바닥(줄눈이 있는 큰 석판, 결 무늬, 작은 기공)에 높은 창으로 든 햇빛이 1 : 1.5 직사각형으로 떨어진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/64-caustic-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/64-caustic-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/64-caustic-type/NOTES.md"
+  },
+  {
+   "id": "65-physarum-type",
+   "number": 65,
+   "title": "점균이 쓴 글자",
+   "tech": "Physarum 에이전트(감지·회전·이동·침착) · 확산·감쇠 · 먹이장",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "Jones (2010) Physarum 모형, GPU(WebGL2)",
+    "한 스텝",
+    "감지·회전·이동",
+    "Jones의 배제"
+   ],
+   "scene": "암시야 현미경 아래의 짙은 청흑색 시야다. 처음에는 초점이 흐렸다가 맞는다. 아홉 개의 귀리 조각이 테두리만 밝게 빛난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/65-physarum-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/65-physarum-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/65-physarum-type/NOTES.md"
+  },
+  {
+   "id": "66-rain-poem",
+   "number": 66,
+   "title": "빗속의 시",
+   "tech": "GPU 2D 파동 방정식 · 굴절 · 프레넬 반사 · 수면 커스틱",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "simulation",
+    "optics"
+   ],
+   "libraries": [],
+   "points": [
+    "수면: 감쇠 2D 파동 방정식 (GPU, shaders.js:35)",
+    "라플라시안",
+    "CFL 조건",
+    "감쇠"
+   ],
+   "scene": "해 질 녘, 돌로 된 얕은 수반을 바로 위에서 내려다본다. 바닥 화강암에는 시 한 편이 세로쓰기로 (오른쪽 열부터) 새겨져 있고, 홈에는 닳은 금박이 남아 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/66-rain-poem/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/66-rain-poem/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/66-rain-poem/NOTES.md"
+  },
+  {
+   "id": "67-gsap-splittext",
+   "number": 67,
+   "title": "글자가 입장하는 법",
+   "tech": "GSAP SplitText · ScrambleText · CustomEase — 라인 마스크 · 글자 스태거 · 스크램블",
+   "group": "gsap-group",
+   "group_name": "GSAP",
+   "tags": [
+    "gsap",
+    "typography"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "SplitText, 분할은 모두 setup에서",
+    "CustomEase",
+    "ScrambleTextPlugin",
+    "흩어졌다 다시 모이기"
+   ],
+   "scene": "밝은 에디토리얼이다. 따뜻한 종이색(#f3eee4) 바탕에 먹색 글자를 쓰고, 강조색은 주홍(#e2401c) 하나만 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/67-gsap-splittext/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/67-gsap-splittext/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/67-gsap-splittext/NOTES.md"
+  },
+  {
+   "id": "68-gsap-morphsvg",
+   "number": 68,
+   "title": "모양의 여행",
+   "tech": "GSAP MorphSVG · DrawSVG · MotionPath",
+   "group": "gsap-group",
+   "group_name": "GSAP",
+   "tags": [
+    "gsap"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "도형 저작 규칙",
+    "MorphSVGPlugin 설정",
+    "날갯짓도 모핑",
+    "MotionPathPlugin"
+   ],
+   "scene": "크림색 종이 위에 그린 미드센추리 플랫 일러스트다. 화면 위쪽 가운데에 햇살 무늬(sunburst)를 두른 해가 있고, 아래로 점묘 무늬가 들어간 언덕 세 겹과 막대사탕 모양 나무가 이어진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/68-gsap-morphsvg/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/68-gsap-morphsvg/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/68-gsap-morphsvg/NOTES.md"
+  },
+  {
+   "id": "69-gsap-flip",
+   "number": 69,
+   "title": "다시 놓이는 것들",
+   "tech": "GSAP Flip · FLIP 레이아웃 전환 · CSS 그리드/플렉스",
+   "group": "gsap-group",
+   "group_name": "GSAP",
+   "tags": [
+    "gsap",
+    "css",
+    "transition"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "진짜 CSS 레이아웃 다섯 개",
+    "Flip.getState로 상태를 기록한다",
+    "Flip.fit(getVars)로 변환을 계산한다",
+    "중첩 공유 요소 모핑"
+   ],
+   "scene": "미술관 도록처럼 차분한 화면이다. - 바탕은 옅은 회백(#efece6)이다. - 카드(3:4)는 위쪽 62%가 그 절기의 색면이고, 색면 안에 작은 SVG 모티프와 번호가 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/69-gsap-flip/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/69-gsap-flip/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/69-gsap-flip/NOTES.md"
+  },
+  {
+   "id": "70-gsap-motionpath",
+   "number": 70,
+   "title": "종이비행기 편지",
+   "tech": "GSAP MotionPath(캔버스 객체) · CustomWiggle · Physics2D",
+   "group": "gsap-group",
+   "group_name": "GSAP",
+   "tags": [
+    "gsap",
+    "physics"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "업계 패턴: 일반 객체를 트윈하고 캔버스는 직접 그린다",
+    "MotionPathPlugin",
+    "경로 만들기",
+    "트윈"
+   ],
+   "scene": "맑은 봄날 오후다. 하늘은 위에서 아래로 파스텔 하늘색 → 복숭앗빛 → 크림색으로 내려온다. 왼쪽 위에 연노랑 해와 무리가 있고, 납작한 구름 다섯 개가 천천히 흐른다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/70-gsap-motionpath/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/70-gsap-motionpath/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/70-gsap-motionpath/NOTES.md"
+  },
+  {
+   "id": "71-gsap-pixi",
+   "number": 71,
+   "title": "물결 넘김 포스터",
+   "tech": "PixiJS 8 · DisplacementFilter · GSAP PixiPlugin",
+   "group": "gsap-group",
+   "group_name": "GSAP",
+   "tags": [
+    "gsap",
+    "pixijs"
+   ],
+   "libraries": [
+    "GSAP",
+    "PixiJS"
+   ],
+   "points": [
+    "PixiJS 8",
+    "앱",
+    "그리기 경로",
+    "RGB 분리 = 색 채널 사본 세 장"
+   ],
+   "scene": "패션 잡지 「WAVE」 7호의 포스터 네 장이 액체처럼 넘어간다. 색은 토마토 레드, 울트라마린, 애시드 옐로, 크림, 잉크 다섯 가지다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/71-gsap-pixi/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/71-gsap-pixi/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/71-gsap-pixi/NOTES.md"
+  },
+  {
+   "id": "72-gsap-three",
+   "number": 72,
+   "title": "카메라 안무",
+   "tech": "GSAP 타임라인 × three.js · 카메라 경로 · 장면 연출",
+   "group": "gsap-group",
+   "group_name": "GSAP",
+   "tags": [
+    "three-js",
+    "gsap",
+    "3d",
+    "camera",
+    "data-viz"
+   ],
+   "libraries": [
+    "three.js",
+    "GSAP"
+   ],
+   "points": [
+    "GSAP 3.15: 장면 전체를 움직이는 타임라인 하나",
+    "카메라 리그",
+    "MotionPathPlugin",
+    "배"
+   ],
+   "scene": "파스텔 하늘 배경 위에 둥근 받침대에 얹힌 장난감 섬 마을이 떠 있다. 받침대는 복숭아색 쟁반에 크림색 테두리가 둘려 있고 그 안에 청록 바다가 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/72-gsap-three/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/72-gsap-three/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/72-gsap-three/NOTES.md"
+  },
+  {
+   "id": "73-anime-stagger",
+   "number": 73,
+   "title": "점들의 합창",
+   "tech": "anime.js 4 · 그리드 스태거 · SVG 드로잉/모프",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "anime-js",
+    "svg"
+   ],
+   "libraries": [
+    "anime.js"
+   ],
+   "points": [
+    "타임라인 하나",
+    "그리드 스태거",
+    "층으로 쌓는 점",
+    "이징"
+   ],
+   "scene": "96 BPM(한 박 625 ms, 16박 = 4마디). 바우하우스 악보 포스터가 살아 움직인다. 크림색 종이에 검정·빨강·코발트·노랑만 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/73-anime-stagger/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/73-anime-stagger/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/73-anime-stagger/NOTES.md"
+  },
+  {
+   "id": "74-motion-spring",
+   "number": 74,
+   "title": "알림이 내려앉을 때",
+   "tech": "Motion(motion.dev) · 스프링 물리 · 수동 시계 seek",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "motion",
+    "physics"
+   ],
+   "libraries": [
+    "Motion"
+   ],
+   "points": [
+    "Motion의 animate와 스프링",
+    "수동 시계",
+    "값 하나에 animate 하나, 움직임마다 래퍼 하나",
+    "스프링을 가진 동작들"
+   ],
+   "scene": "부드러운 파스텔 그라디언트 위에 CSS로 그린 일반 휴대폰이 있다(흑연색 테두리, 펀치홀 카메라, 측면 버튼, 상표 없음).",
+   "live_url": "https://dogebi.github.io/cokacmotion/74-motion-spring/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/74-motion-spring/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/74-motion-spring/NOTES.md"
+  },
+  {
+   "id": "75-lottie-code",
+   "number": 75,
+   "title": "코드로 쓴 로티",
+   "tech": "lottie-web · 트림 패스 · 리피터 · 매트 · 셰이프 모프 (JSON을 코드로 작성)",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "lottie"
+   ],
+   "libraries": [
+    "lottie-web"
+   ],
+   "points": [
+    "키프레임과 이징",
+    "트림 패스",
+    "리피터",
+    "셰이프 모프"
+   ],
+   "scene": "크림색 바탕(#FFF4DE), 아래에는 남색 언덕 두 겹, 위에는 「오늘의 날씨 / 서울 · 하루의 하늘」과 기온이 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/75-lottie-code/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/75-lottie-code/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/75-lottie-code/NOTES.md"
+  },
+  {
+   "id": "76-p5-tree",
+   "number": 76,
+   "title": "바람 부는 나무",
+   "tech": "p5.js · 재귀 가지치기 · noise 바람 · 인스턴스 모드",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "p5js",
+    "procedural"
+   ],
+   "libraries": [
+    "p5.js"
+   ],
+   "points": [
+    "p5.js 2 인스턴스 모드를 무대 캔버스에 붙이기 (main.js:405)",
+    "재귀 가지치기 (tree.js:72, 그리기 main.js:180)",
+    "우산형 수관",
+    "맞춤"
+   ],
+   "scene": "결이 있는 종이에 그린 봄 일러스트다. 위는 옅은 하늘색에서 복숭앗빛으로 번지는 하늘이고, 수채 얼룩 같은 구름이 천천히 오른쪽으로 흐른다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/76-p5-tree/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/76-p5-tree/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/76-p5-tree/NOTES.md"
+  },
+  {
+   "id": "77-paper-boolean",
+   "number": 77,
+   "title": "오리고 붙인 풍경",
+   "tech": "Paper.js · 불리언 연산(unite/subtract/intersect) · 경로 스무딩",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "paperjs",
+    "data-viz"
+   ],
+   "libraries": [
+    "Paper.js"
+   ],
+   "points": [
+    "Paper.js를 t로 몰기 (main.js:598)",
+    "불리언으로 지은 조각들 (setup, 정적)",
+    "unite",
+    "마을 실루엣"
+   ],
+   "scene": "장난감 종이 극장(toy theatre)이다. - 극장 틀: 남색 판지 프로시니엄이 화면을 감싼다. 위가 둥근 무대 입구에 겨자색 금박 테를 둘렀다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/77-paper-boolean/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/77-paper-boolean/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/77-paper-boolean/NOTES.md"
+  },
+  {
+   "id": "78-zdog-planet",
+   "number": 78,
+   "title": "작은 행성",
+   "tech": "Zdog · 평면 의사 3D 일러스트 · 팔레트 낮/밤 전환",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "zdog",
+    "3d",
+    "transition"
+   ],
+   "libraries": [
+    "Zdog"
+   ],
+   "points": [
+    "Zdog 장면 그래프",
+    "그리는 순서 (z 정렬)",
+    "조명 흉내 (Zdog에는 빛이 없다)",
+    "팔레트 낮/노을/밤"
+   ],
+   "scene": "부드러운 하늘 그라데이션(하늘색 → 크림) 위에 떠 있는 작은 초록 행성이다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/78-zdog-planet/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/78-zdog-planet/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/78-zdog-planet/NOTES.md"
+  },
+  {
+   "id": "79-matter-galton",
+   "number": 79,
+   "title": "갈톤 보드",
+   "tech": "matter-js 강체 물리 · 고정 dt 굽기 · 이항분포 → 정규분포",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "matter-js",
+    "physics"
+   ],
+   "libraries": [
+    "matter-js"
+   ],
+   "points": [
+    "물리 (matter-js 0.20, sim.js)",
+    "2D 갈톤 보드의 문제와 보정",
+    "조율 결과",
+    "잠자기"
+   ],
+   "scene": "밝은 종이 바탕(점 격자) 위에 그린 인포그래픽형 갈톤 보드다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/79-matter-galton/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/79-matter-galton/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/79-matter-galton/NOTES.md"
+  },
+  {
+   "id": "80-mojs-burst",
+   "number": 80,
+   "title": "축하의 순간",
+   "tech": "mo.js · Burst · Shape · ShapeSwirl · Html · Timeline.setProgress",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "mojs"
+   ],
+   "libraries": [
+    "mo.js"
+   ],
+   "points": [
+    "단 하나의 mojs.Timeline",
+    "Shape + then 체인",
+    "커스텀 도형",
+    "Burst"
+   ],
+   "scene": "따뜻한 흰 바탕(#FFF6EA)의 앱 화면에서 시작한다. 위에 「오늘은 특별한 날 / 하트를 눌러 확인해 보세요」, 아래에 자두색 탭 바가 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/80-mojs-burst/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/80-mojs-burst/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/80-mojs-burst/NOTES.md"
+  },
+  {
+   "id": "81-babylon-greenhouse",
+   "number": 81,
+   "title": "아침의 온실",
+   "tech": "Babylon.js · PBR 유리 · 그림자 생성기(PCF) · GlowLayer · 부피광 산란",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "babylon"
+   ],
+   "libraries": [
+    "Babylon.js"
+   ],
+   "points": [
+    "렌더 루프 없이 t로 그리기 (main.js:214, main.js:294)",
+    "빛",
+    "태양",
+    "채움광"
+   ],
+   "scene": "해 뜰 무렵 정원의 나무 탁자 위에 빅토리아풍 작은 유리 온실(워디언 케이스)이 놓여 있다. 크림색 주물 틀에 박공지붕, 용마루 장식(크레스팅)과 양 끝 피니얼이 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/81-babylon-greenhouse/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/81-babylon-greenhouse/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/81-babylon-greenhouse/NOTES.md"
+  },
+  {
+   "id": "82-tone-shapes",
+   "number": 82,
+   "title": "소리가 그린 도형",
+   "tech": "Tone.js(오프라인 합성) · 악보 기반 모션 · GSAP 타임라인 · SVG",
+   "group": "libraries",
+   "group_name": "유명 라이브러리",
+   "tags": [
+    "tone-js",
+    "gsap",
+    "svg",
+    "audio"
+   ],
+   "libraries": [
+    "Tone.js",
+    "GSAP"
+   ],
+   "points": [
+    "악보 하나, 감각 둘 (score.js)",
+    "소리: Tone.Offline (synth.js:17)",
+    "잔향",
+    "마무리"
+   ],
+   "scene": "크림색 종이 위에 칸딘스키·바우하우스풍 구성이 음악과 함께 한 겹씩 쌓인다. 빨강·파랑·노랑과 검은 선을 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/82-tone-shapes/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/82-tone-shapes/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/82-tone-shapes/NOTES.md"
+  },
+  {
+   "id": "83-css-keyframes",
+   "number": 83,
+   "title": "CSS로만 그린 일출",
+   "tech": "CSS @keyframes · @property · conic/radial-gradient · clip-path · mix-blend-mode",
+   "group": "web-native-animation",
+   "group_name": "웹 네이티브 애니메이션",
+   "tags": [
+    "css"
+   ],
+   "libraries": [],
+   "points": [
+    "등록된 커스텀 속성(@property)과 하나의 색 대본",
+    "clip-path 다각형 보간 (ridges.js)",
+    "블렌드·필터",
+    "새: offset-path (style.css:274)"
+   ],
+   "scene": "산이 겹겹이 선 호숫가의 해돋이를 밝은 그라디언트 일러스트로 그린다. 캔버스·셰이더·이미지 파일이 없고, 모든 픽셀은 CSS(그라디언트, clip-path 다각형, 블렌드 모드, 필터, offset-path)다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/83-css-keyframes/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/83-css-keyframes/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/83-css-keyframes/NOTES.md"
+  },
+  {
+   "id": "84-svg-smil",
+   "number": 84,
+   "title": "태엽 장치",
+   "tech": "SVG SMIL(animateTransform · animateMotion · animate) · setCurrentTime",
+   "group": "web-native-animation",
+   "group_name": "웹 네이티브 애니메이션",
+   "tags": [
+    "svg"
+   ],
+   "libraries": [],
+   "points": [
+    "맞물림이 맞는 인벌류트 톱니 (gears.js)",
+    "바퀴열 전체가 같이 째깍인다: accumulate=\"sum\" (movement.js:65)",
+    "진자와 닻: keyTimes/keySplines (movement.js:167)",
+    "태엽: d 모핑과 stroke-dashoffset (movement.js:98)"
+   ],
+   "scene": "크림색 종이에 갈색 잉크로 새긴 동판화 도판이다. 놋쇠·강철·주홍은 손으로 칠한 듯한 옅은 채색이다. 위쪽 「그림 1」은 태엽으로 도는 천체 운행기(오러리), 아래쪽 「그림 2」는 그것을 움직이는 동력 장치다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/84-svg-smil/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/84-svg-smil/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/84-svg-smil/NOTES.md"
+  },
+  {
+   "id": "85-scroll-timeline",
+   "number": 85,
+   "title": "스크롤로 읽는 이야기",
+   "tech": "CSS 스크롤 기반 애니메이션(scroll() · view()) · 스크롤 위치 제어",
+   "group": "web-native-animation",
+   "group_name": "웹 네이티브 애니메이션",
+   "tags": [
+    "css"
+   ],
+   "libraries": [],
+   "points": [
+    "스크롤 컨테이너와 시계 (main.js)",
+    "scroll() — 진행 막대와 표지 시차",
+    "view() — 문단",
+    "이름 있는 view timeline — 섹션 그림과 숫자"
+   ],
+   "scene": "밝은 잡지풍 롱리드 「한 잔의 커피가 오기까지」를 보이지 않는 독자가 읽어 내려간다. 무대 위쪽 1080×1600은 기사가 담긴 스크롤 컨테이너다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/85-scroll-timeline/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/85-scroll-timeline/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/85-scroll-timeline/NOTES.md"
+  },
+  {
+   "id": "86-face-rig",
+   "number": 86,
+   "title": "에… 에… 에취!",
+   "tech": "얼굴 리그 · 표정 채널 + 연기 곡선",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "character"
+   ],
+   "libraries": [],
+   "points": [
+    "채널 24개",
+    "포즈",
+    "같은 리그, 다른 인물",
+    "눈"
+   ],
+   "scene": "평면 스티커 일러스트다. 둥근 도형을 쓰고, 잉크 외곽선은 6.5px, 스티커 그림자는 번짐 없이 아래로 11px 떨어진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/86-face-rig/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/86-face-rig/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/86-face-rig/NOTES.md"
+  },
+  {
+   "id": "87-sensor-vision",
+   "number": 87,
+   "title": "밤 숲의 한 사람",
+   "tech": "센서 시점 · 스칼라장 + 거짓 색 + 스캔 전환",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "transition"
+   ],
+   "libraries": [],
+   "points": [
+    "같은 장소, 세 가지 표현",
+    "스칼라장 = t의 순수 함수",
+    "열",
+    "연기 기둥 = 이류(advection)된 노이즈"
+   ],
+   "scene": "밤 #070b18 바탕이다. 강조색은 지금 켜진 채널의 색 하나만 쓴다: 달빛 #bcd0ff, 열 #ff9a4a, 소리 #7fe7ff, 고정 #ffcf5a.",
+   "live_url": "https://dogebi.github.io/cokacmotion/87-sensor-vision/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/87-sensor-vision/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/87-sensor-vision/NOTES.md"
+  },
+  {
+   "id": "88-loupe-lens",
+   "number": 88,
+   "title": "날개의 파랑",
+   "tech": "돋보기 렌즈 · 굴절 왜곡 + 숨은 층 + 아이리스 전환",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "gsap",
+    "optics",
+    "transition"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "세 개의 숨은 층(setup에서 굽는다)",
+    "능선의 자리는 모든 레벨에서 같다",
+    "굴절 = 픽셀마다 반지름을 다시 매기는 일",
+    "큰 렌즈 = 평평한 안쪽 + 굴절하는 테 띠"
+   ],
+   "scene": "호두나무 책상, 크림색 표본 카드, 연필과 자, 파란 나비(검은 테두리에 흰 점, 날개맥)가 나오는 평면 벡터 일러스트다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/88-loupe-lens/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/88-loupe-lens/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/88-loupe-lens/NOTES.md"
+  },
+  {
+   "id": "89-impact-kit",
+   "number": 89,
+   "title": "세 번 찍는 도장",
+   "tech": "임팩트 키트 · 한 박자를 세게 만드는 겹침",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "gsap"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "박자 하나 = (t − t_hit)의 닫힌 식 묶음",
+    "겹침의 순서와 예산",
+    "채널 분리: 한 요소에 세 움직임이 섞이지 않고 더해진다",
+    "자국 굽기"
+   ],
+   "scene": "어두운 남색 펠트 깔판 위에 한지 서식 「한 박자 연습장」이 놓여 있다. 서식에는 결재란처럼 생긴 세 칸(작게 · 중간 · 크게)과 칸마다 「(인)」 자리가 인쇄되어 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/89-impact-kit/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/89-impact-kit/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/89-impact-kit/NOTES.md"
+  },
+  {
+   "id": "90-measure-hud",
+   "number": 90,
+   "title": "구름 위의 아침",
+   "tech": "재는 연출 · 오도미터 + 계기 바늘 + 줄자",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "ui-scene"
+   ],
+   "libraries": [],
+   "points": [
+    "값 하나에서 모든 계기로",
+    "오도미터 자리 올림",
+    "바퀴별 모션 블러",
+    "드럼 느낌과 고정폭 숫자"
+   ],
+   "scene": "평면 일러스트다. 색 온도로 이야기가 흐른다. 밤(남색) → 구름 속 새벽(라일락·장밋빛) → 해돋이(하늘색·금빛).",
+   "live_url": "https://dogebi.github.io/cokacmotion/90-measure-hud/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/90-measure-hud/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/90-measure-hud/NOTES.md"
+  },
+  {
+   "id": "91-gait-cycle",
+   "number": 91,
+   "title": "눈 위의 박자",
+   "tech": "닫힌식 보행 주기 · 발 고정 · 발자국 박자",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "physics"
+   ],
+   "libraries": [],
+   "points": [
+    "하나의 경로 → 공통 박자 격자",
+    "발 고정(planted feet)",
+    "토끼: 포물선 비행 + 찌그러짐·늘어남",
+    "닭: 번갈아 걷기 + 기우뚱 + 머리 고정"
+   ],
+   "scene": "깊이 층(뒤 → 앞): 하늘 그라데이션과 구름, 해와 빛무리, 먼 언덕 두 겹, 전나무 두 줄, 눈밭(바람 자국과 눈 입자), 따뜻한 햇빛 덧칠과 반짝임, 발자국, 토끼와 닭(긴 아침 그림자), 앞쪽 눈 둔덕과 마른 풀, 빛줄기, 세 겹으로 내리는 눈(가까운 눈송이는 흐림), 박자 띠, 글자.",
+   "live_url": "https://dogebi.github.io/cokacmotion/91-gait-cycle/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/91-gait-cycle/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/91-gait-cycle/NOTES.md"
+  },
+  {
+   "id": "92-type-acting",
+   "number": 92,
+   "title": "고백하던 날",
+   "tech": "뜻을 연기하는 글자 · 채널 기반 글자 효과",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "opentype",
+    "typography"
+   ],
+   "libraries": [
+    "opentype.js"
+   ],
+   "points": [
+    "단위(unit)와 쉬는 자리",
+    "text",
+    "outline",
+    "shard"
+   ],
+   "scene": "오후 햇빛이 드는 책상 위에 편지지 한 장이 놓여 있다. 창틀 그림자가 십자로 비스듬히 떨어지고, 그 안에서 나뭇잎 그림자가 흔들린다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/92-type-acting/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/92-type-acting/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/92-type-acting/NOTES.md"
+  },
+  {
+   "id": "93-transition-kit",
+   "number": 93,
+   "title": "종이배의 하루",
+   "tech": "장면 전환 키트 · 와이프·아이리스·휩 팬·매치 컷",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "gsap",
+    "transition"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "구조",
+    "장면 그리기",
+    "카메라",
+    "종이배"
+   ],
+   "scene": "모든 전환은 같은 문법을 따른다. 1. 히어로 글자가 먼저 빠진다. 0.28초 `power2.in`으로, 들어올 때(0.72초 `expo.out`)보다 빠르다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/93-transition-kit/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/93-transition-kit/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/93-transition-kit/NOTES.md"
+  },
+  {
+   "id": "94-multiplane",
+   "number": 94,
+   "title": "이슬 너머 먼 불빛",
+   "tech": "멀티플레인 카메라 · 평면 일러스트의 깊이",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "camera"
+   ],
+   "libraries": [],
+   "points": [
+    "기준 카메라로 그린 카드",
+    "카메라",
+    "카드 굽기와 흐림 피라미드",
+    "피사계 심도"
+   ],
+   "scene": "해 뜨기 직전의 대숲이다. 대나무 줄기 사이로 먼 언덕 위의 작은 한옥 한 채가 보이고, 그 집 창 하나에만 불이 켜져 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/94-multiplane/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/94-multiplane/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/94-multiplane/NOTES.md"
+  },
+  {
+   "id": "95-closed-form-physics",
+   "number": 95,
+   "title": "다 같이, 멈춰",
+   "tech": "닫힌식 물리 · 시뮬레이션 없이 튕기고 흔들리기",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "physics",
+    "simulation"
+   ],
+   "libraries": [],
+   "points": [
+    "동전 — 오일러 원반의 유한 시간 정지",
+    "콩 — 포물선 조각 + 기하급수 바운드 + 정확히 R에 서는 구르기",
+    "역으로 겨누기",
+    "숟가락·푸딩·꼬투리 — 선형 진동자의 중첩"
+   ],
+   "scene": "팔레트: 크림 벽(#FAE6CA), 나무 식탁(#D89C60), 잉크(#2B211B), 강조색 토마토(#E9483B) 하나.",
+   "live_url": "https://dogebi.github.io/cokacmotion/95-closed-form-physics/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/95-closed-form-physics/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/95-closed-form-physics/NOTES.md"
+  },
+  {
+   "id": "96-kinetic-camera",
+   "number": 96,
+   "title": "오늘은 그냥, 한 번",
+   "tech": "키네틱 타이포그래피 · 글자 지도 위를 나는 카메라",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "typography",
+    "camera",
+    "data-viz"
+   ],
+   "libraries": [],
+   "points": [
+    "글자 지도 조판",
+    "회전한 문구는 가운데에 둔다",
+    "카메라 = 닮음 변환, 이동 = 닮음군의 측지선",
+    "이동 곡선 s(t)"
+   ],
+   "scene": "독백은 \"매일 아침 / 생각만 했다 / 오늘은 / 그냥 / 한 번 / 해 보기로 / 했다.\"이다. 글꼴은 Pretendard Variable 하나에 굵기 두 단계(300, 900)만 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/96-kinetic-camera/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/96-kinetic-camera/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/96-kinetic-camera/NOTES.md"
+  },
+  {
+   "id": "97-karaoke-captions",
+   "number": 97,
+   "title": "양말 도둑",
+   "tech": "말하는 자막 · 단어 단위 타이밍 + 하이라이트 필 + 강조 팝",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "captions"
+   ],
+   "libraries": [],
+   "points": [
+    "말 타이밍 표",
+    "줄바꿈은 setup에서 한 번 잰다",
+    "알약(FLIP)",
+    "단어 색 상태"
+   ],
+   "scene": "밤의 방을 평면 스티커 일러스트로 그렸다(잉크 외곽선 5–6px, 둥근 도형). 남색 벽과 달빛 창, 빨랫줄의 양말 세 켤레가 보인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/97-karaoke-captions/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/97-karaoke-captions/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/97-karaoke-captions/NOTES.md"
+  },
+  {
+   "id": "98-split-flap",
+   "number": 98,
+   "title": "집으로 가는 막차",
+   "tech": "플랩 전광판 · 반쪽 판이 넘어가는 기계식 글자",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "드럼과 플랩 순서",
+    "넘김 일정 = t의 순수 함수",
+    "넘김 한 번 그리기",
+    "글자판은 setup에서 한 번 굽는다"
+   ],
+   "scene": "어두운 역 벽에 금속 테두리의 안내판이 걸려 있고, 그 위에 따뜻한 막대 조명이 매달려 있다. 안내판은 머리판(`출발` · `밤 열차 안내` · `지금 23:57` 플랩 시계)과 7줄 × 11칸(열차 2칸, 시각 4칸, 행선지 4칸, 타는 곳 1칸)으로 되어 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/98-split-flap/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/98-split-flap/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/98-split-flap/NOTES.md"
+  },
+  {
+   "id": "99-knockout-zoom",
+   "number": 99,
+   "title": "여름으로 난 창",
+   "tech": "녹아웃 글자 · 카운터를 통과하는 줌",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "opentype",
+    "typography",
+    "camera"
+   ],
+   "libraries": [
+    "opentype.js"
+   ],
+   "points": [
+    "핀홀 카메라 하나",
+    "지수 줌",
+    "녹아웃(글자 = 창)",
+    "절단면(벽 두께)"
+   ],
+   "scene": "",
+   "live_url": "https://dogebi.github.io/cokacmotion/99-knockout-zoom/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/99-knockout-zoom/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/99-knockout-zoom/NOTES.md"
+  },
+  {
+   "id": "100-echo-type",
+   "number": 100,
+   "title": "지금",
+   "tech": "에코와 늘임 · 시간 지연 반복 + 늘어나는 글자",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "opentype",
+    "typography"
+   ],
+   "libraries": [
+    "opentype.js"
+   ],
+   "points": [
+    "시간 지연 에코",
+    "세 가지 지연",
+    "위아래 거울 줄",
+    "늘여도 고른 외곽선"
+   ],
+   "scene": "인쇄된 포스터다. 잉크는 세 가지(종이색 #ece4d3, 먹 #17140f, 주홍 #ec3b1b)만 쓴다. 악장마다 세 잉크의 역할(바탕·앞장·에코)이 바뀌고, 6단 그리드를 따라가는 와이프로 넘어간다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/100-echo-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/100-echo-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/100-echo-type/NOTES.md"
+  },
+  {
+   "id": "101-marker-annotate",
+   "number": 101,
+   "title": "여백에 남긴 비법",
+   "tech": "형광펜과 손 주석 · 손으로 긋는 강조의 문법",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "ui-scene"
+   ],
+   "libraries": [],
+   "points": [
+    "표시 = 폴리라인 + 필압 + 손의 시간",
+    "속도는 손을 따른다",
+    "필압 윤곽",
+    "그리기"
+   ],
+   "scene": "호두나무 책상에 접힌 자국이 있는 레시피 한 장(「주말 부엌 노트 No. 12 · 토마토 달걀볶음」)이 놓여 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/101-marker-annotate/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/101-marker-annotate/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/101-marker-annotate/NOTES.md"
+  },
+  {
+   "id": "102-iso-blocks",
+   "number": 102,
+   "title": "쌓으면, 꿈",
+   "tech": "아이소메트릭 복셀 글자 · 블록 조립과 재조립",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "3d",
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "글자 → 격자",
+    "획을 따라가는 순서",
+    "닫힌 식 착지",
+    "같은 블록으로 다시 짓기"
+   ],
+   "scene": "미감은 파스텔 장난감 스튜디오다. - 배경: 위는 하늘색, 아래는 라일락 바닥으로 넘어가는 그라디언트. 왼쪽 위에 소프트박스 빛이 있고, 지평선 근처에 초점이 나간 장난감 실루엣과 필름 그레인을 깔았다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/102-iso-blocks/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/102-iso-blocks/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/102-iso-blocks/NOTES.md"
+  },
+  {
+   "id": "103-word-swap",
+   "number": 103,
+   "title": "오늘의 빈칸",
+   "tech": "단어 교체 키트 · 한 자리에서 바뀌는 낱말",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "gsap"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "시간표와 구조",
+    "이징은 GSAP에서 가져온다",
+    "폭 맞춤 = FLIP",
+    "슬라이스"
+   ],
+   "scene": "미감은 밤의 포스터다. 남보라 밤하늘에 크림색 글자를 쓰고, 강조색은 호박색(#ffbe55) 하나만 쓴다. - 배경: 별, 초승달, 해가 뜰 자리에서 퍼지는 빛살과 얇은 동심원, 먼 언덕의 작은 집 불빛, 가까운 언덕, 떠다니는 먼지, 필름 그레인.",
+   "live_url": "https://dogebi.github.io/cokacmotion/103-word-swap/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/103-word-swap/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/103-word-swap/NOTES.md"
+  },
+  {
+   "id": "104-type-tunnel",
+   "number": 104,
+   "title": "오늘이라는 터널",
+   "tech": "글자 터널 · 3D 공간을 지나가는 글자",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "three-js",
+    "3d",
+    "typography"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "원통 좌표 하나로 모든 것을 놓는다",
+    "벽 글자는 축에서 보면 똑바로 읽힌다",
+    "세 종류의 글자",
+    "글자 아틀라스와 합성"
+   ],
+   "scene": "미감은 '밤의 종이 등불'이다. 원고지 칸이 희미하게 그어진 짙은 남색 원통 안에서, 글자는 등불처럼 빛난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/104-type-tunnel/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/104-type-tunnel/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/104-type-tunnel/NOTES.md"
+  },
+  {
+   "id": "105-comic-sfx",
+   "number": 105,
+   "title": "택배 왔다",
+   "tech": "만화 의성어 레터링 · 소리를 그리는 글자",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "opentype",
+    "typography"
+   ],
+   "libraries": [
+    "opentype.js"
+   ],
+   "points": [
+    "글자 가공(setup, sfx.js:124 prepGlyph)",
+    "배치(매 프레임, t의 닫힌 식)",
+    "겹겹이 그리기(sfx.js:253 drawLetter)",
+    "소리에 딸린 표시"
+   ],
+   "scene": "어두운 책상 위에 바랜 크림색 원고지가 놓여 있다. 원고지에는 하늘색 밑그림 칸, 재단선, 머리글 「07 택배 왔다」가 인쇄되어 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/105-comic-sfx/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/105-comic-sfx/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/105-comic-sfx/NOTES.md"
+  },
+  {
+   "id": "106-ime-compose",
+   "number": 106,
+   "title": "보내기 전에",
+   "tech": "조합되는 한글 · 입력기 조합 + 쓰고 지우는 문장",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "gsap",
+    "typography"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "입력은 키 목록 하나뿐이다",
+    "두벌식 오토마타",
+    "매 프레임 처음부터 다시 친다",
+    "입력기 표시"
+   ],
+   "scene": "미감은 밤 방 안의 휴대폰이다. 남보라 방, 커튼 사이 창밖의 흐린 도시 불빛(보케)과 달, 이불과 베개가 있고, 화면 빛이 방을 비춘다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/106-ime-compose/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/106-ime-compose/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/106-ime-compose/NOTES.md"
+  },
+  {
+   "id": "107-unroll-text",
+   "number": 107,
+   "title": "돌고 돌아 제자리",
+   "tech": "경로 위 조판 · 호 길이로 맞춘 경로 모핑",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "typography",
+    "data-viz"
+   ],
+   "libraries": [],
+   "points": [
+    "테이프(setup, main.js:40 buildTape)",
+    "경로 = 회전 함수 θ(u)(main.js:64 makeShapes)",
+    "모핑: 같은 u에서 접선을 섞고, 헤드에서부터 적분(main.js:286 buildPath)",
+    "글자 배치(main.js:370 이후)"
+   ],
+   "scene": "미감은 '크림색 종이 위 포스터'다. 바탕은 바랜 크림색 종이(결, 섬유, 배지 중심의 옅은 동심원)이고, 먹색 글자에 강조색은 주홍 하나만 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/107-unroll-text/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/107-unroll-text/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/107-unroll-text/NOTES.md"
+  },
+  {
+   "id": "108-liquid-fill",
+   "number": 108,
+   "title": "가득 찬 아침",
+   "tech": "차오르는 글자 · 글자를 그릇으로 쓰는 액체",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "opentype",
+    "typography"
+   ],
+   "libraries": [
+    "opentype.js"
+   ],
+   "points": [
+    "글자 → 그릇",
+    "수위의 성격은 모양에서 나온다",
+    "수면 = 닫힌 식의 출렁임",
+    "기울어도 수평"
+   ],
+   "scene": "깊이는 다섯 겹이다. 가장 뒤에는 흐린 선반 소품(원두 병·컵·화분)과 펜던트 조명이 있다(구울 때 blur 6px·3px).",
+   "live_url": "https://dogebi.github.io/cokacmotion/108-liquid-fill/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/108-liquid-fill/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/108-liquid-fill/NOTES.md"
+  },
+  {
+   "id": "109-paper-unfold",
+   "number": 109,
+   "title": "접힌 쪽지",
+   "tech": "펼쳐지는 종이 글자 · 접힘선 따라 열리는 타이포그래피",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "typography",
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "종이 = 경첩 사슬",
+    "같은 접힘선으로 다른 모양",
+    "원근 카메라와 텍스처 조각",
+    "그리는 순서"
+   ],
+   "scene": "미감은 오후 햇살이 드는 교실 책상이다. - 배경: 꿀색 합판 책상(긴 나뭇결, 연필 낙서), 지우개와 지우개 가루, 노란 연필, 펼친 공책 귀퉁이.",
+   "live_url": "https://dogebi.github.io/cokacmotion/109-paper-unfold/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/109-paper-unfold/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/109-paper-unfold/NOTES.md"
+  },
+  {
+   "id": "110-sticker-peel",
+   "number": 110,
+   "title": "나중에 말고 지금",
+   "tech": "다이컷 스티커 · 말려 올라가는 떼기",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "opentype"
+   ],
+   "libraries": [
+    "opentype.js"
+   ],
+   "points": [
+    "다이컷 칼선 굽기(setup, sticker.js:141 bakeSticker)",
+    "철썩 붙기(main.js:76 slapPose, main.js:97 drawFlat, main.js:113 surfaceFx)",
+    "말려 올라가는 떼기(sticker.js:243-286, main.js:278 peelState, main.js:453 drawPeel)",
+    "홀로그램 「지금」(main.js:420 drawNow)"
+   ],
+   "scene": "짙은 호두나무 책상이다. 왼위에서 스탠드 불빛이 들어온다. 헤어라인 가공 알루미늄 노트북 뚜껑이 놓여 있고(브랜드 없음), 오른위에는 반쯤 쓴 스티커 대지가, 왼아래에는 연필이 걸쳐 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/110-sticker-peel/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/110-sticker-peel/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/110-sticker-peel/NOTES.md"
+  },
+  {
+   "id": "111-chrome-sting",
+   "number": 111,
+   "title": "오늘의 발견",
+   "tech": "방송 타이틀 스팅 · 금속 입체 글자 + 반사 + 빛 쓸기",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "three-js",
+    "opentype",
+    "typography"
+   ],
+   "libraries": [
+    "three.js",
+    "opentype.js"
+   ],
+   "points": [
+    "윤곽 → Shape → ExtrudeGeometry",
+    "법선 고치기",
+    "조명 = 그린 스튜디오",
+    "빛 띠"
+   ],
+   "scene": "미감은 '방송 그래픽'이다. 남색이 도는 검은 스튜디오에 위에서 희미한 빛기둥이 내려오고, 바닥은 검게 윤이 난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/111-chrome-sting/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/111-chrome-sting/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/111-chrome-sting/NOTES.md"
+  },
+  {
+   "id": "112-projection-map",
+   "number": 112,
+   "title": "이 골목도 무대였다",
+   "tech": "프로젝션 매핑 타이포그래피 · 건물 면의 호모그래피와 아나모픽",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "opentype",
+    "typography"
+   ],
+   "libraries": [
+    "opentype.js"
+   ],
+   "points": [
+    "고정 카메라와 벽마다 호모그래피 하나",
+    "글자는 벡터로 사영한다",
+    "내용의 좌표계 네 가지",
+    "처마 띠: 앞면은 어긋나고 아래는 그늘"
+   ],
+   "scene": "카메라는 처음부터 끝까지 움직이지 않는다. 관객은 골목 계단에 서 있어서 눈높이가 3 m이고, 수평을 본다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/112-projection-map/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/112-projection-map/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/112-projection-map/NOTES.md"
+  },
+  {
+   "id": "113-puffy-type",
+   "number": 113,
+   "title": "빵빵하게",
+   "tech": "거리장 부풀림 셰이딩 · 높이장 법선 · 광택과 접촉 그림자",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "shader"
+   ],
+   "libraries": [],
+   "points": [
+    "모양 → 거리장 아틀라스",
+    "열기",
+    "닫기",
+    "높이 = 거리의 함수"
+   ],
+   "scene": "미감은 캔디 파스텔 스튜디오다. - 배경: 라일락에서 복숭아빛으로 넘어가는 호리존트 벽이다. 벽이 바닥으로 휘는 자리(y ≈ 1370)가 빛을 받아 밝다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/113-puffy-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/113-puffy-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/113-puffy-type/NOTES.md"
+  },
+  {
+   "id": "114-beat-type",
+   "number": 114,
+   "title": "하나 둘 셋 넷",
+   "tech": "박자에 맞춘 글자 · 마디·박·엇박으로 짜는 타이포 레이아웃",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "gsap",
+    "typography"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "악보 표 하나가 전부를 정한다",
+    "타격 → 타이포 반응",
+    "예비 동작과 안착을 박으로 잰다",
+    "다섯 구성"
+   ],
+   "scene": "고대비 포스터다. 종이(#efe6d3), 먹(#15130f), 주홍(#e2402a) 세 색만 쓰고, 마디마다 바탕이 뒤집힌다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/114-beat-type/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/114-beat-type/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/114-beat-type/NOTES.md"
+  },
+  {
+   "id": "115-marquee-tape",
+   "number": 115,
+   "title": "취급주의, 오늘의 주인공",
+   "tech": "흐르는 글자 띠 · 무한 마키 테이프",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "three-js",
+    "typography"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "끝없는 흐름 = 오프셋 mod 주기",
+    "띠 = 중심선 위 N개 표본, 표본마다 자기 틀",
+    "벨트 레일",
+    "접선 감기"
+   ],
+   "scene": "미감은 밝은 종이 공작 포스터다. 라일락 종이 벽(결 무늬, 아래로 갈수록 짙어짐) 앞에 크라프트 상자가 떠 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/115-marquee-tape/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/115-marquee-tape/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/115-marquee-tape/NOTES.md"
+  },
+  {
+   "id": "116-logo-reveal",
+   "number": 116,
+   "title": "동틀녘 러닝 클럽",
+   "tech": "로고 리빌 · 도형이 모여 심벌과 워드마크로",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "gsap"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "하나의 움직임 아이디어 = 한 바퀴",
+    "트랙 경로",
+    "꼬리 = 점이 지나온 길",
+    "도형이 서로를 가린다"
+   ],
+   "scene": "새벽 남색 바탕(#13173d → #1c2156 → #2b2461)에 크림(#fff1dc), 해 주황(#ff6a3d), 금빛(#ffb63e)을 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/116-logo-reveal/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/116-logo-reveal/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/116-logo-reveal/NOTES.md"
+  },
+  {
+   "id": "117-gooey-blobs",
+   "number": 117,
+   "title": "몽글몽글",
+   "tech": "메타볼 블롭 · 붙고 갈라지고 글자를 감싸는 액체",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "장의 기울기",
+    "조각마다 색",
+    "글자 커버리지를 더하고 빼야",
+    "커널"
+   ],
+   "scene": "미감은 굵은 평면 팔레트와 그레인이다. 장면 A는 크림 종이(#f4ecdd)에 먹색 글자를 쓰고, 액체는 해바라기(#ffc21e)·토마토(#ff5433)를 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/117-gooey-blobs/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/117-gooey-blobs/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/117-gooey-blobs/NOTES.md"
+  },
+  {
+   "id": "118-dot-matrix",
+   "number": 118,
+   "title": "점 하나로 여는 무대",
+   "tech": "점 격자 모션 · 점의 크기와 색으로 그리는 도형과 글자",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "점 하나 = 장들의 합성",
+    "거리장 → 점 크기",
+    "점 → 선 → 면은 한 모양",
+    "아이콘"
+   ],
+   "scene": "미감은 무대 LED 월의 방송 그래픽이다. 짙은 코발트 패널 위에 꺼진 LED(옅은 푸른 점)가 늘 깔려 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/118-dot-matrix/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/118-dot-matrix/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/118-dot-matrix/NOTES.md"
+  },
+  {
+   "id": "119-iso-explainer",
+   "number": 119,
+   "title": "편지 한 통이 집에 닿기까지",
+   "tech": "아이소메트릭 설명 장면 · 흐름이 보이는 작은 세계",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "3d"
+   ],
+   "libraries": [],
+   "points": [
+    "투영과 카메라",
+    "한 빛에서 나온 세 톤",
+    "호 길이 고리와 일정한 간격",
+    "위상은 주인공의 일정표에서 역산한다"
+   ],
+   "scene": "미감은 밝은 파스텔 인포그래픽(아이소메트릭 설명 일러스트)이다. - 하늘: 옅은 물빛에서 크림색으로 넘어가는 그라디언트다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/119-iso-explainer/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/119-iso-explainer/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/119-iso-explainer/NOTES.md"
+  },
+  {
+   "id": "120-perfect-loop",
+   "number": 120,
+   "title": "끝에서 처음으로",
+   "tech": "완벽한 루프 · 끝과 처음이 이어지는 기하 패턴",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "procedural",
+    "time"
+   ],
+   "libraries": [],
+   "points": [
+    "모든 장치는 L/k 주기다",
+    "90° 물결 = 한 칸 이동",
+    "줌 루프(드로스테)",
+    "넘겨주는 움직임(릴레이)"
+   ],
+   "scene": "포스터는 위에서 아래로 다음 순서로 짜여 있다. - 머리줄: `NO.120 LOOP STUDY`, `L = 9.60 S · 30 FPS` - 큰 제목 두 줄: 끝에서 / 처음으로.",
+   "live_url": "https://dogebi.github.io/cokacmotion/120-perfect-loop/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/120-perfect-loop/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/120-perfect-loop/NOTES.md"
+  },
+  {
+   "id": "121-mesh-gradient",
+   "number": 121,
+   "title": "숨 고르는 아침",
+   "tech": "흐르는 그라데이션 메시 · 필름 그레인 · 유리 카드",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "그라데이션 메시",
+    "움직이는 제어점 = 역변위",
+    "새벽 → 아침 전선",
+    "글자 = 메시를 보는 창"
+   ],
+   "scene": "위계: 제목 280px / 카드 큰 숫자 132px / 카드 제목·알약 38–46px / 라벨 20–34px.",
+   "live_url": "https://dogebi.github.io/cokacmotion/121-mesh-gradient/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/121-mesh-gradient/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/121-mesh-gradient/NOTES.md"
+  },
+  {
+   "id": "122-app-promo",
+   "number": 122,
+   "title": "목마르기 전에",
+   "tech": "앱 소개 모션 · 폰 목업 + 화면 전환 + 탭 + 기능 콜아웃",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "gsap",
+    "transition"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "이야기 시계 한 곳",
+    "기기 = CSS 3D 리그",
+    "3D 투영으로 지시선 찾기",
+    "화면 전환은 UI의 논리를 따른다"
+   ],
+   "scene": "미감은 밝은 플랫 일러스트 앱 광고다. 바탕은 세이지 종이색이고, 가장자리에 흐린 몬스테라 잎 두 겹과 떠다니는 물방울 보케, 필름 그레인을 깔았다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/122-app-promo/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/122-app-promo/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/122-app-promo/NOTES.md"
+  },
+  {
+   "id": "123-lower-thirds",
+   "number": 123,
+   "title": "모퉁이 라이브",
+   "tech": "방송 그래픽 패키지 · 로어서드 · 티커 · 버그 · 스팅어",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "gsap"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "디자인 시스템",
+    "시그니처 동작 \"앞서는 라임, 따라오는 바\"",
+    "글자를 재서 바를 만든다",
+    "티커와 숫자"
+   ],
+   "scene": "샷 A는 눈 오는 밤 골목의 붕어빵 노점에서 사장님을 찍은 인터뷰 미디엄 숏이다. 줄무늬 차양과 전구가 있고, 뒤로는 초점이 나간 골목(창, 네온, 보케)이 보인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/123-lower-thirds/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/123-lower-thirds/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/123-lower-thirds/NOTES.md"
+  },
+  {
+   "id": "124-shape-mascot",
+   "number": 124,
+   "title": "네모, 무게를 싣다",
+   "tech": "도형 마스코트 · 애니메이션 원칙과 스미어 프레임",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "particles",
+    "character"
+   ],
+   "libraries": [],
+   "points": [
+    "몸의 궤적: 구간 목록",
+    "찌그러짐·늘어남(부피 보존)",
+    "예비 동작",
+    "글자는 스프링 받침"
+   ],
+   "scene": "미감은 '애니메이터의 연필 테스트'다. 짙은 책상 위에 작화지 석 장이 겹쳐 있다. 맨 위 장은 아래에서 올라오는 라이트 테이블 빛으로 가운데가 밝다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/124-shape-mascot/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/124-shape-mascot/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/124-shape-mascot/NOTES.md"
+  },
+  {
+   "id": "125-route-map",
+   "number": 125,
+   "title": "바람섬 사흘 걷기",
+   "tech": "지도 경로 모션 · 가상의 섬 위의 여정",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "data-viz"
+   ],
+   "libraries": [],
+   "points": [
+    "섬 만들기",
+    "해안선과 등고선 추적",
+    "바다의 메아리 고리",
+    "땅의 깊이"
+   ],
+   "scene": "미감은 설명 영상용 일러스트 지도다. 청록 바다, 크림·세이지색 단계 채색의 땅, 먹선, 그리고 강조색 주홍(#E2472B) 하나를 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/125-route-map/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/125-route-map/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/125-route-map/NOTES.md"
+  },
+  {
+   "id": "126-isotype",
+   "number": 126,
+   "title": "출근길 100명",
+   "tech": "아이소타입 통계 · 반복 아이콘 + 격자→무리 재배치",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "data-viz"
+   ],
+   "libraries": [],
+   "points": [
+    "아이소타입 규칙을 코드의 불변식으로",
+    "사람 기호 하나의 Path2D",
+    "FLIP 1: 격자 → 네 줄",
+    "내려앉을 자리 비우기"
+   ],
+   "scene": "크림색 종이 위에 사람 기호 100개가 격자로 떨어져 선다. 기호들은 호를 그리며 교통수단별 아이소타입 네 줄로 날아가 세어지고, 아침을 거른 32명이 토마토색으로 칠해진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/126-isotype/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/126-isotype/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/126-isotype/NOTES.md"
+  },
+  {
+   "id": "127-before-after",
+   "number": 127,
+   "title": "정리 전, 정리 후",
+   "tech": "비교 장면 · 한 장면의 두 상태 + 와이프 슬라이더 + 분할 화면",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "transition"
+   ],
+   "libraries": [],
+   "points": [
+    "장면 설명 하나, 상태 둘",
+    "2.5D: 소실점 하나로 윗면과 옆면",
+    "같은 렌더러, 같은 카메라 = 픽셀 단위 정합",
+    "와이프 = 미리 그린 두 상태 + 페더 클립"
+   ],
+   "scene": "어둡고 어질러진 원룸이 정리된 방으로 바뀌고, 와이프 슬라이더와 위아래 분할 화면이 달라진 곳 여덟 군데를 같은 번호의 손그림 고리로 짚는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/127-before-after/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/127-before-after/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/127-before-after/NOTES.md"
+  },
+  {
+   "id": "128-scale-zoom",
+   "number": 128,
+   "title": "한 방울에서 지구까지",
+   "tech": "스케일 줌 · 지수 줌 + 단계별 장면 + 원점 재설정",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "camera"
+   ],
+   "libraries": [],
+   "points": [
+    "지수 줌: 로그 공간에서 보간한다",
+    "단계마다 자기 단위, 자기 원점",
+    "앵커와 원점 재설정",
+    "왜 필요한가(부동소수점 정밀도)"
+   ],
+   "scene": "이슬 한 방울에 머물다가, 같은 속도로 열 자릿수를 물러나 지구에 이른다. 방울이 있던 자리는 따뜻한 반짝임 하나로 끝까지 표시된다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/128-scale-zoom/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/128-scale-zoom/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/128-scale-zoom/NOTES.md"
+  },
+  {
+   "id": "129-timeline",
+   "number": 129,
+   "title": "개업",
+   "tech": "타임라인 · 비선형 시간 축 + 카메라 추적 + 연도 카운터",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "camera"
+   ],
+   "libraries": [],
+   "points": [
+    "워프: 밀도를 계단으로 설계하고 시그모이드로 부드럽게 한다",
+    "눈금은 실제 연도에 찍고, 라벨은 간격으로 고른다",
+    "끊김 표시는 압축비가 문턱을 넘는 곳에만 생긴다",
+    "이야기는 경사-정지 목표, 카메라는 그 앞을 보는 닫힌 식 임계 감쇠다"
+   ],
+   "scene": "크림색 종이 위의 세로 연표를 카메라가 따라 내려간다. 사건 카드가 좌우에서 번갈아 들어오고, 카드마다 시대에 따라 커지고 바뀌는 빵집 그림이 있으며, 마지막에 40년 전체가 실제 비율로 펼쳐진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/129-timeline/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/129-timeline/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/129-timeline/NOTES.md"
+  },
+  {
+   "id": "130-quiz-countdown",
+   "number": 130,
+   "title": "다음 숫자는?",
+   "tech": "퀴즈 연출 · 카운트다운 링 + 긴장 리듬 + 정답 공개",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "gsap"
+   ],
+   "libraries": [
+    "GSAP"
+   ],
+   "points": [
+    "이야기 시계 한 곳",
+    "카운트다운 링 = 각도가 t의 닫힌 식인, 끝이 둥근 호",
+    "숫자 넘김(스플릿 플랩)",
+    "긴장 리듬: 간격이 기하급수로 줄어드는 틱"
+   ],
+   "scene": "짙은 남색 퀴즈 화면에서 숫자 줄이 박자에 맞춰 튀어나오고, 크림색 카운트다운 링이 노란색으로 바뀌며 빨라지는 틱 속에 비어 가고, 시간이 끝나면 정답 카드 C만 노랗게 터진 뒤 호가 피보나치 규칙을 그려 보인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/130-quiz-countdown/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/130-quiz-countdown/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/130-quiz-countdown/NOTES.md"
+  },
+  {
+   "id": "131-spotlight-focus",
+   "number": 131,
+   "title": "책방 고양이는 어디에",
+   "tech": "시선 유도 · 스포트라이트 마스크 + 초점 이동(피사계 심도)",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "color",
+    "ui-scene"
+   ],
+   "libraries": [],
+   "points": [
+    "스포트라이트 = 늘어나는 타원의 부호 거리",
+    "바깥 = 휘도 보존 탈색 + 노출 감소, 마스크 한 장을 두 번 합성",
+    "눈처럼 찾기: 고정과 도약(saccade)",
+    "찾음의 박자와 돌아오는 장치"
+   ],
+   "scene": "비 오는 저녁의 작은 책방이다. 짙은 초록 칸을 단 나무 서가가 벽을 채우고, 맨 윗칸 책 사이에 주황 고양이 \"귤이\"가 눈만 내놓고 엎드려 있으며, 앞쪽 계산대에는 김이 오르는 찻잔과 녹색 갓 탁상등, 안경을 얹은 책 더미가 놓여 있다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/131-spotlight-focus/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/131-spotlight-focus/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/131-spotlight-focus/NOTES.md"
+  },
+  {
+   "id": "132-photo-parallax",
+   "number": 132,
+   "title": "새벽 호숫가",
+   "tech": "2.5D 사진 시차 · 깊이맵 광선 진행 + 돌리 줌",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "three-js",
+    "camera"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "렌더러로 가는 것은 사진 한 장과 깊이맵 한 장뿐이다",
+    "에피폴라 선 위에서 광선을 진행한다",
+    "가려졌던 곳은 계단 모형으로 판정한다",
+    "배경 레이어: 먼 쪽을 경계 밑으로 밀어 넣는다"
+   ],
+   "scene": "해 뜨기 직전의 호숫가를 그린 사진 한 장이 깊이를 얻어, 나무다리 옆에 매인 작은 배 쪽으로 카메라가 들어갔다가 돌리 줌으로 물러나며 산과 해가 다가오고 물 위에 금빛 반짝임이 남는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/132-photo-parallax/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/132-photo-parallax/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/132-photo-parallax/NOTES.md"
+  },
+  {
+   "id": "133-speed-ramp",
+   "number": 133,
+   "title": "웅덩이 위의 알리",
+   "tech": "시간 재매핑 · 속도 곡선 적분과 노출 모션 블러, 정지 화면",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "time"
+   ],
+   "libraries": [],
+   "points": [
+    "속도 곡선을 닫힌 식으로 적분한 이야기 시간 τ(t)",
+    "노출 모션 블러: 노출 창 안의 서브프레임 누적",
+    "장면 전체가 τ의 닫힌 식",
+    "평면 일러스트를 핀홀 카메라로 찍기: 시차와 반사"
+   ],
+   "scene": "비 갠 골목, 노란 우비의 아이가 스케이트보드로 웅덩이를 넘는다. 속도가 1배에서 0.1배로 떨어지며 물방울이 공중에 걸리고, 꼭짓점에서 화면이 멈춰 흰 오려낸 테두리와 이름 카드가 붙는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/133-speed-ramp/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/133-speed-ramp/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/133-speed-ramp/NOTES.md"
+  },
+  {
+   "id": "134-lip-sync",
+   "number": 134,
+   "title": "아침 라디오",
+   "tech": "립싱크 · 한글 자모 → 입 모양 + 조음 결합",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "typography",
+    "audio"
+   ],
+   "libraries": [],
+   "points": [
+    "정렬표는 TTS가 주는 글자 단위 타이밍 그대로다",
+    "한글 분해",
+    "입은 표기가 아니라 발음을 따른다",
+    "음절 → 구간"
+   ],
+   "scene": "아침 일곱 시 라디오 부스에서 헤드폰을 쓴 둥근 얼굴의 진행자가 ON AIR 불이 켜지자 첫 인사를 말하고 웃는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/134-lip-sync/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/134-lip-sync/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/134-lip-sync/NOTES.md"
+  },
+  {
+   "id": "135-chat-thread",
+   "number": 135,
+   "title": "오늘 저녁 뭐 먹지",
+   "tech": "메신저 대화 장면 · 말풍선 레이아웃 + 스프링 스크롤 + 입력 중 표시",
+   "group": "motion-design",
+   "group_name": "모션그래픽 디자인",
+   "tags": [
+    "physics",
+    "ui-scene"
+   ],
+   "libraries": [],
+   "points": [
+    "어절을 지키는 줄바꿈(measureText)",
+    "말풍선 크기는 줄에서 나온다",
+    "묶음: 아바타·이름은 첫째에, 꼬리는 마지막에, 모서리는 자리에 따라",
+    "모서리 하나 = 3차 베지에 둘, 꼬리는 그 제어점의 보간"
+   ],
+   "scene": "차가운 연회색 바탕에 떠 있는 대화창에서 가족 넷이 저녁 메뉴로 투닥이다가, 투표가 2 : 2로 갈리자 엄마가 \"둘 다 시키자\"를 보내고 반응이 터져 나온다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/135-chat-thread/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/135-chat-thread/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/135-chat-thread/NOTES.md"
+  },
+  {
+   "id": "136-color-grade",
+   "number": 136,
+   "title": "같은 골목, 세 개의 기억",
+   "tech": "컬러 그레이딩 · 3D LUT + 낮을 밤으로",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "three-js",
+    "3d",
+    "color"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "그레이드 = 파라미터로 굽는 33³ 3D LUT",
+    "화이트밸런스: 켈빈·틴트 → Bradford 색순응",
+    "ASC CDL과 lift/gamma/gain",
+    "톤 커브: 단조 3차 스플라인"
+   ],
+   "scene": "한 장으로 그린 골목이 낮, 바랜 기억, 밤으로 차례로 보정되고, 가로등이 켜진 뒤 세 띠로 나뉘어 같은 프레임의 세 그레이드를 나란히 보여 준다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/136-color-grade/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/136-color-grade/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/136-color-grade/NOTES.md"
+  },
+  {
+   "id": "137-pen-write-on",
+   "number": 137,
+   "title": "펜으로 쓴 안부",
+   "tech": "손글씨 쓰기 · 글리프 골격화 + 획 순서 + 납작펜 굵기",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "글리프 골격화: 래스터 → Zhang–Suen 세선화 → 그래프 → 정리",
+    "획으로 나누기: 교차점을 곧게 지나는 가지는 잇고, 모서리는 자른 뒤 한글식으로 다시 잇는다",
+    "한글 획순: 자모는 초성 → 중성 → 종성, 자모 안은 위→아래·왼→오, 가로지르면 가로 먼저",
+    "최소 저크 펜 시간: s(τ) = 10τ³ − 15τ⁴ + 6τ⁵, 획 시간은 길이에 준선형"
+   ],
+   "scene": "햇살 드는 나무 책상 위 점 노트에 남색 만년필이 \"잘 지내?\"를 획순대로 쓰고, 다 쓰면 산호색 밑줄과 하트가 그어진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/137-pen-write-on/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/137-pen-write-on/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/137-pen-write-on/NOTES.md"
+  },
+  {
+   "id": "138-variety-captions",
+   "number": 138,
+   "title": "라면 물 조절 실패",
+   "tech": "예능 자막 · 겹 테두리 + 튀어나오기 + 화자 색 + 상황 자막",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "captions"
+   ],
+   "libraries": [],
+   "points": [
+    "겹 테두리 = 넓은 패스부터 그리는 목록",
+    "한 패스를 모든 글자에 다 그린 뒤 다음 패스로 간다",
+    "넓은 띠는 둥근 이음, 좁은 띠만 마이터",
+    "획 폭의 상한은 글자의 속공간이 정한다"
+   ],
+   "scene": "작은 부엌에서 두 친구가 라면 물을 붓다가 냄비가 넘치고, 화자 색 자막·괄호 상황 자막·겹 테두리 강조 자막·집중선과 펀치 줌이 그 순간을 예능처럼 짚는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/138-variety-captions/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/138-variety-captions/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/138-variety-captions/NOTES.md"
+  },
+  {
+   "id": "139-text-behind",
+   "number": 139,
+   "title": "구름 위 봉우리",
+   "tech": "글자 뒤 피사체 · 깊이 사이에 끼운 제목 + 매트 + 깊이 안개",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "three-js",
+    "typography"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "장면은 깊이를 가진 층이고, 모든 층은 같은 원근 카메라로 투영된다",
+    "제목 평면에서 앞 더미와 뒤 더미를 따로 쌓는다",
+    "사진 한 장과 분할 마스크로 옮기는 식",
+    "매트 가장자리: 깊이 띠와 공간 깃털"
+   ],
+   "scene": "해 뜨는 구름바다 위로 봉우리가 솟아 있고, 깃발을 든 등산객이 꼭대기에 서 있다. 큰 제목 \"정상\"이 위에서 내려와 봉우리 뒤에 자리 잡는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/139-text-behind/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/139-text-behind/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/139-text-behind/NOTES.md"
+  },
+  {
+   "id": "140-end-credits",
+   "number": 140,
+   "title": "빈 의자",
+   "tech": "엔딩 크레딧 · 가운데 거터 정렬 + 일정 속도 스크롤 + 크레딧 스퀴즈",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "captions"
+   ],
+   "libraries": [],
+   "points": [
+    "크레딧 조판기: 8 px 기준선 격자 위에서 가운데 거터로 두 열을 마주 세운다",
+    "띠는 setup에서 한 번 조판하고, 매 프레임 정수 위치에 1:1로 복사만 한다",
+    "일정 속도는 \"프레임당 정수 px × fps\"로 정한다",
+    "감속은 줄어드는 정수 걸음으로 하고, 마지막 카드는 계산된 자리에 선다"
+   ],
+   "scene": "해 질 녘 빈 의자가 놓인 방이 화면 위쪽의 액자 창으로 줄어든다. 그 아래로 역할과 이름이 가운데 거터를 사이에 두고 마주 선 엔딩 크레딧이 일정한 속도로 올라가고, 고마움 인사와 제작사 표지에서 멈춘다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/140-end-credits/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/140-end-credits/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/140-end-credits/NOTES.md"
+  },
+  {
+   "id": "141-shape-text",
+   "number": 141,
+   "title": "글로 그린 고래",
+   "tech": "모양 안 조판 · 스캔라인 구간 + Knuth–Plass 줄 나누기 + 단어 재배치",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "typography"
+   ],
+   "libraries": [],
+   "points": [
+    "모양 1: 접선각 함수로 적분한 척추 + 두께 윤곽",
+    "모양 2: 물방울 모핑, 호 길이 재표본 + 맞춘 기준점",
+    "줄 띠의 가용 구간: 위·가운데·아래 주사선의 교집합",
+    "띠는 모양의 윗변에 매단다"
+   ],
+   "scene": "종이에 찍은 짙푸른 바다 포스터 안에서, 한 문단의 글자로만 그려진 고래가 숨을 쉬러 올라왔다가 몸을 뒤집어 잠수하고 커다란 물방울이 되며, 문단이 매 순간의 윤곽 안으로 다시 조판된다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/141-shape-text/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/141-shape-text/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/141-shape-text/NOTES.md"
+  },
+  {
+   "id": "142-optical-kerning",
+   "number": 142,
+   "title": "글자 사이의 공기",
+   "tech": "광학 자간 · 글자 사이 면적을 고르게 맞추기",
+   "group": "type-motion",
+   "group_name": "타이포그래피 모션그래픽",
+   "tags": [
+    "opentype",
+    "optics",
+    "typography"
+   ],
+   "libraries": [
+    "opentype.js"
+   ],
+   "points": [
+    "글꼴 파일의 외곽선을 그대로 쓴다",
+    "윤곽: 주사선마다 가장 왼쪽·오른쪽 잉크",
+    "사이 폭, 두 한계, 가중치, 면적",
+    "목표 면적 = 기준 쌍 HH"
+   ],
+   "scene": "따뜻한 교정지 위에 TRAVEL이 기본 자간으로 놓이고, 글자 쌍 사이의 흰 면적이 토마토색 도형과 막대로 재어진 뒤, 탐색 풀이가 모든 쌍의 면적을 기준(HH = 100)에 맞출 때까지 글자를 밀고 당겨 AV만 크게 좁힌다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/142-optical-kerning/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/142-optical-kerning/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/142-optical-kerning/NOTES.md"
+  },
+  {
+   "id": "143-slit-scan",
+   "number": 143,
+   "title": "기다림",
+   "tech": "슬릿스캔 · 시간 변위 표본 (x, y, t 볼륨)",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "three-js"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "슬릿스캔 = 한 줄씩 다른 시각에 찍기",
+    "원본 애니메이션을 (x, y, t) 볼륨으로 굽기",
+    "색이 아니라 거리장을 저장하는 이유",
+    "시간 축: 조각 사이 선형 보간 + 반복(wrap)"
+   ],
+   "scene": "보랏빛에서 복숭앗빛으로 저무는 하늘 아래 정류장 표지판이 서 있고, 떠다니는 \"기다림\"이 줄 → 고리 → 소용돌이 슬릿스캔으로 시간의 띠가 되었다가 다시 단어로 돌아오며 \"조금 늦게 와도 괜찮아\"가 떠오른다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/143-slit-scan/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/143-slit-scan/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/143-slit-scan/NOTES.md"
+  },
+  {
+   "id": "144-scanimation",
+   "number": 144,
+   "title": "줄무늬 너머의 글자",
+   "tech": "스캐니메이션 · 바리어 그리드 인터레이스 + 모아레 확대",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "three-js",
+    "opentype"
+   ],
+   "libraries": [
+    "three.js",
+    "opentype.js"
+   ],
+   "points": [
+    "인터레이스: 여러 장을 한 장에 세로 줄로 섞어 인쇄한다",
+    "바리어 그리드: 막대 (N − 1)·w, 틈 w, 주기 N·w",
+    "애니메이션의 시계는 필름의 위치다",
+    "서브픽셀로 움직이는 틈의 정확한 덮임"
+   ],
+   "scene": "책상 위 카드에 막대 필름이 미끄러져 들어오면 뒤엉킨 줄무늬가 춤추는 「춤」이 되고, 렌즈 필름을 바로 놓는 순간 깨알 무늬가 커다란 「안녕」으로 부풀어 필름보다 50배 빨리 달린다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/144-scanimation/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/144-scanimation/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/144-scanimation/NOTES.md"
+  },
+  {
+   "id": "145-laser-engrave",
+   "number": 145,
+   "title": "나무에 새긴 이름",
+   "tech": "레이저 각인 · 래스터 주사 + 머문 시간에 따른 탄 깊이 + 흑체 열 자국",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "three-js"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "문구는 판 해상도로 래스터한다",
+    "래스터 경로: 블록마다 아래에서 위로, 줄마다 방향을 바꾼다",
+    "사다리꼴 속도 윤곽이라 모든 것이 닫힌 식이다",
+    "픽셀마다 t_pass를 굽는다"
+   ],
+   "scene": "어두운 각인기 안, 벌집 베드 위의 자작나무 판을 레이저 헤드가 아래 줄부터 왕복하며 \"늘 고마워\"를 태워 새기고, 흰 주황 불점이 지나간 줄은 붉게 식어 짙은 갈색으로 남으며, 솔이 그을음을 쓸어 낸 뒤 낮은 빛이 새긴 깊이를 드러낸다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/145-laser-engrave/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/145-laser-engrave/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/145-laser-engrave/NOTES.md"
+  },
+  {
+   "id": "146-spray-stencil",
+   "number": 146,
+   "title": "벽에 뿌린 한마디",
+   "tech": "스프레이 스텐실 · 가우스 분사 + 다리 있는 스텐실 + 흘러내림",
+   "group": "experimental-type",
+   "group_name": "실험 타이포그래피",
+   "tags": [
+    "three-js",
+    "analog"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "분사 = 노즐 거리로 정해지는 가우스 발자국",
+    "누적 퇴적을 0.1초마다 굽고, 그 사이는 셰이더가 정확히 더한다",
+    "덮임 = 흡수층 + 요철 + 알갱이",
+    "다리 있는 스텐실: 섬을 찾아 가장 짧은 곧은 다리로 묶는다"
+   ],
+   "scene": "해 질 녘 콘크리트 벽에 테이프로 붙인 판지 스텐실 위로 캔이 호를 그리며 크림색과 산호색을 뿌리고, 판지를 말아 떼면 다리 자국이 남은 선명한 글자와 흘러내린 물방울이 드러난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/146-spray-stencil/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/146-spray-stencil/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/146-spray-stencil/NOTES.md"
+  },
+  {
+   "id": "147-product-turntable",
+   "number": 147,
+   "title": "실리콘 패킹",
+   "tech": "제품 턴테이블 샷 · 3점 조명 + PBR 재질 + 접지 그림자",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js",
+    "3d",
+    "color"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "프로필 곡선 하나로 만든 몸통",
+    "분체 도장 = 결 노멀맵 위의 클리어코트",
+    "브러시드 스틸 = 이방성 + 결 텍스처",
+    "반사 = RoomEnvironment → PMREM, 키와 함께 돈다"
+   ],
+   "scene": "어두운 스튜디오에서 주황 텀블러가 림 라이트의 가장자리 두 줄로 먼저 나타나고, 돌아 들어오는 키 라이트의 긴 하이라이트 띠가 몸통을 쓸며 색을 드러낸 뒤, 낮은 3/4 히어로 각도에서 뚜껑이 들리고 3D 점에 붙은 지시선 콜아웃 세 개가 뜨고, 카메라가 빠지며 같은 형상의 다른 색 세 개가 옆으로 미끄러져 들어와 이름과 함께 줄을 선다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/147-product-turntable/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/147-product-turntable/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/147-product-turntable/NOTES.md"
+  },
+  {
+   "id": "148-exploded-view",
+   "number": 148,
+   "title": "손전등 속을 들여다보면",
+   "tech": "분해도 · 부품 계층 + 분해 벡터 + 3D 설명선",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js",
+    "3d"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "부품 표가 장면을 정한다",
+    "다른 제품에 표를 세우는 법",
+    "한 동작으로 읽히는 순서",
+    "3D 기준점 → 화면"
+   ],
+   "scene": "남색 스튜디오에 크림색 손전등이 돌며 들어와 여덟 부품으로 풀린다. 오른쪽 열에 번호 붙은 설명선이 쌓이고, LED 모듈만 호박색으로 강조된다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/148-exploded-view/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/148-exploded-view/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/148-exploded-view/NOTES.md"
+  },
+  {
+   "id": "149-toon-shading",
+   "number": 149,
+   "title": "비 오는 정류장",
+   "tech": "툰 셰이딩 · 계단 명암 + 뒤집은 껍질 외곽선 + 림 라이트",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "빛 하나 = 도착량 x 하나, 그것을 계단 램프 하나로 자른다",
+    "받는 그림자는 램프 앞에서 곱한다",
+    "알베도는 중성, 색은 빛이 낸다",
+    "림 라이트도 계단으로"
+   ],
+   "scene": "비 내리는 밤의 빈 정류장 위로 보이지 않는 버스의 헤드라이트가 오른쪽에서 쓸고 지나가면, 셀 애니메이션처럼 끊긴 명암 띠와 그림자가 모든 물체 위를 미끄러지고 웅덩이는 그 장면을 계단진 색으로 비춘다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/149-toon-shading/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/149-toon-shading/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/149-toon-shading/NOTES.md"
+  },
+  {
+   "id": "150-character-rig",
+   "number": 150,
+   "title": "안녕, 하고 손 흔들기",
+   "tech": "3D 캐릭터 리그 · 코드로 짠 스키닝 + 걷기 주기 + 두 마디 IK",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js",
+    "3d",
+    "character"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "뼈대: 뼈 16개, 바인드 회전은 모두 단위 행렬",
+    "몸통 = 폭이 바뀌는 초타원체 회전면",
+    "메시 하나로 합치기",
+    "스킨 가중치 = 뼈 선분까지 거리의 가우스"
+   ],
+   "scene": "해 뜨는 공원 길을 따라 하얀 콩 모양 마스코트가 카메라 쪽으로 걸어오다 멈추고, 한 손을 흔들며 \"안녕!\" 하고 웃는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/150-character-rig/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/150-character-rig/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/150-character-rig/NOTES.md"
+  },
+  {
+   "id": "151-tilt-shift",
+   "number": 151,
+   "title": "장난감 마을의 아침",
+   "tech": "틸트시프트 미니어처 · 로우폴리 디오라마 + 피사계 심도 + 끊는 시간",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js",
+    "color"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "어떤 장면이든 미니어처로 보이게 하는 설정",
+    "착란원(CoC): 얇은 렌즈 식을 모형 축척으로",
+    "초점 당기기는 디옵터(1/S)로",
+    "반 해상도 준비 패스"
+   ],
+   "scene": "해 뜨는 출근길, 위에서 비스듬히 내려다본 로우폴리 마을이 띠 모양의 초점 속에서 장난감처럼 움직이다가, 초점이 앞쪽 정류장으로 건너가며 빨간 트램이 도착한다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/151-tilt-shift/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/151-tilt-shift/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/151-tilt-shift/NOTES.md"
+  },
+  {
+   "id": "152-point-cloud-scan",
+   "number": 152,
+   "title": "돌 정자를 읽는 빛",
+   "tech": "점구름 3D 스캔 · 표면 표본 + 스캔 평면 + 점→선→면 굳기",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js",
+    "3d",
+    "particles"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "정자는 매개변수 격자 하나로 다 만든다",
+    "무게게중심 좌표 = 변 마스크",
+    "표면 표본: 보이지 않는 면은 무게 0",
+    "스캔 평면: 닫힌 식과 그 역함수"
+   ],
+   "scene": "어둠 위쪽에 가는 청록 레이저 선이 켜지고, 그 평면이 내려오며 돌 정자를 점구름으로 읽고 와이어프레임을 거쳐 단단한 돌로 굳힌 뒤, 바닥에 닿아 고리로 퍼지고 카메라가 돌며 완성된 정자를 비춘다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/152-point-cloud-scan/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/152-point-cloud-scan/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/152-point-cloud-scan/NOTES.md"
+  },
+  {
+   "id": "153-particle-dissolve",
+   "number": 153,
+   "title": "흩어졌다 다시 피어나는",
+   "tech": "입자 디졸브 · 노이즈 임계값 + 발광 가장자리 + 표면 입자 흐름",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js",
+    "particles",
+    "procedural"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "임계값 장 h(p, t) = 방향 기울기 + 시간에 흐르는 fBm",
+    "빛을 받는 재질에 디졸브를 주입한다",
+    "그림자도 같이 녹는다",
+    "알갱이가 태어나는 시각 = 그 점에서 장이 임계값을 지나는 시각"
+   ],
+   "scene": "창가 빛이 비치는 나무 탁자 위의 청자 매병이 빛나는 가장자리를 따라 알갱이로 부서져 공중에서 소용돌이친 뒤, 내려앉은 자리에서 청자 연꽃으로 다시 피어난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/153-particle-dissolve/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/153-particle-dissolve/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/153-particle-dissolve/NOTES.md"
+  },
+  {
+   "id": "154-domino-chain",
+   "number": 154,
+   "title": "넘어지며 쓰는 말",
+   "tech": "도미노 연쇄 · 경첩 회전 강체 + 충돌 전달 미리 굽기",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "도미노 하나 = 앞 아래 모서리에 걸린 경첩 강체",
+    "접촉 = 앞 도미노의 위 모서리가 다음 도미노의 등에 닿는다",
+    "첫 충돌은 반발 충격량, 그 뒤는 사슬 구속",
+    "누가 누구를 미나: 다음 순위의 모든 이웃"
+   ],
+   "scene": "산호색 구슬이 첫 도미노를 넘어뜨린다. 물결이 굽은 줄을 달려 부채꼴 들판으로 퍼지고, 카메라가 솟아 내려다보면 쓰러진 도미노의 칠한 등이 하트와 「고마워」를 쓴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/154-domino-chain/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/154-domino-chain/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/154-domino-chain/NOTES.md"
+  },
+  {
+   "id": "155-volumetric-light",
+   "number": 155,
+   "title": "창으로 지나가는 하루",
+   "tech": "볼류메트릭 빛 · 그림자 맵 광선 진행 + 먼지 입자 + 해 각도 타임랩스",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js",
+    "shader",
+    "particles",
+    "time"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "해의 위치: 위도·적위·시각에서 고도와 방위각을 구한다",
+    "해의 색: 색온도 → 플랑크 스펙트럼 → CIE 등색함수 → 선형 sRGB",
+    "해의 세기: 공기 질량과 Beer–Lambert",
+    "그림자 맵 하나를 장면, 빛줄기, 먼지가 함께 쓴다"
+   ],
+   "scene": "해 질 무렵까지 겨울 하루가 흐르는 동안, 남향 격자창으로 들어온 빛줄기가 작업실을 오른쪽에서 왼쪽으로 쓸고, 한낮에는 화분과 의자를 지나며 빛줄기 속에 그림자 틈을 낸다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/155-volumetric-light/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/155-volumetric-light/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/155-volumetric-light/NOTES.md"
+  },
+  {
+   "id": "156-globe-arcs",
+   "number": 156,
+   "title": "철새의 길",
+   "tech": "3D 지구본 · 대기 빛 번짐 + 낮밤 경계 + 대권 호",
+   "group": "3d-scenes",
+   "group_name": "3D 장면",
+   "tags": [
+    "three-js",
+    "geo-data",
+    "3d"
+   ],
+   "libraries": [
+    "three.js",
+    "world-atlas"
+   ],
+   "points": [
+    "TopoJSON을 직접 푼다",
+    "날짜변경선을 넘는 고리 펴기",
+    "육지를 거리장 텍스처로 굽는다",
+    "셰이더에서 문턱을 넘긴다: 어떤 배율에서도 또렷한 해안"
+   ],
+   "scene": "우주에서 지구본이 돌며 들어오고, 알래스카 번식지에서 대권 호가 차례로 날아오른다. 카메라는 가장 긴 호를 탄 새 떼를 뒤따라 낮밤 경계를 넘어 불빛이 켜진 밤 쪽 뉴질랜드에 내린다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/156-globe-arcs/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/156-globe-arcs/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/156-globe-arcs/NOTES.md"
+  },
+  {
+   "id": "157-webtoon-panels",
+   "number": 157,
+   "title": "칸 너머로 점프",
+   "tech": "웹툰 칸 연출 · 스크롤이 곧 시간 + 칸 사이 여백 + 칸 깨기",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "analog"
+   ],
+   "libraries": [],
+   "points": [
+    "스크롤이 곧 시간: 칸에 머무는 시간은 읽을거리로 정한다",
+    "여백 = 쉼: 여백 높이를 시간으로 바꾸는 속도장",
+    "칸 안의 카메라: 칸은 잘라 낸 창이고, 층마다 시차가 다르다",
+    "칸 깨기: 테두리 위 층과 세 영역의 합집합 clip"
+   ],
+   "scene": "해 질 녘 옥상의 고양이가 종이 나비를 보고 뛰어오르는 세로 웹툰이 흘러간다. 고양이는 기울어진 칸의 테두리를 뚫고 빈 여백을 건너 작은 침묵의 칸에서 멈추고, 테두리 없는 마지막 칸에서 상자에 쏙 들어간다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/157-webtoon-panels/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/157-webtoon-panels/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/157-webtoon-panels/NOTES.md"
+  },
+  {
+   "id": "158-pop-out",
+   "number": 158,
+   "title": "액자를 넘은 고래",
+   "tech": "팝아웃 착시 · 깊이 기준 막대 + 피사체 매트 + 액자 밖 그림자",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "transition"
+   ],
+   "libraries": [],
+   "points": [
+    "막대와 창 가장자리가 깊이의 기준 평면이다",
+    "원근: s = V / (V − Z)",
+    "피사체 매트는 픽셀마다 깊이를 시험해서 만든다",
+    "매트 가장자리: q = Z / fwidth(Z)"
+   ],
+   "scene": "크림색 종이 위 둥근 액자 속 새벽 바다에 흰 막대 두 줄이 그어져 있고, 혹등고래가 뛰어올라 막대 앞으로, 액자 밖 종이 위로 머리와 가슴지느러미를 내밀었다가 그림 속으로 돌아가며 종이에 물자국과 그림자를 남긴다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/158-pop-out/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/158-pop-out/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/158-pop-out/NOTES.md"
+  },
+  {
+   "id": "159-aspect-ratio",
+   "number": 159,
+   "title": "기차가 닿는 곳",
+   "tech": "화면비 연출 · 레터박스 → 4:3 회상 → 전체 화면이 열리는 순간",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "video-craft"
+   ],
+   "libraries": [],
+   "points": [
+    "활성 프레임은 변수 하나다: R(t) = (x, y, w, h, r)",
+    "기억 프레임의 모서리 = 초타원 사분호",
+    "재구도: 카메라는 매 프레임 지금의 R에 맞춰 풀린다",
+    "매트가 열리는 것과 크레인 업을 식 하나로 묶는다"
+   ],
+   "scene": "새벽 첫차의 창가에서 시작해, 같은 역의 여름 기억(둥근 4:3)을 지나, 봄 아침 같은 역에서 매트가 열리며 큰 하늘 아래 할머니와 아이가 안는다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/159-aspect-ratio/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/159-aspect-ratio/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/159-aspect-ratio/NOTES.md"
+  },
+  {
+   "id": "160-time-lapse",
+   "number": 160,
+   "title": "창밖의 하루",
+   "tech": "타임랩스 · 시간 압축 + 셔터 누적(빛 궤적·별 궤적·흐린 행인)",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "time"
+   ],
+   "libraries": [],
+   "points": [
+    "장면 시계 T(t): 속도 곡선의 닫힌 적분, 해 질 녘에 느려지는 램프",
+    "셔터 S = K·s(t)/fps: 프레임 K장 분량의 가상 셔터와 Hann 창",
+    "머문 것은 유령: 알파 = 창 안에서 차지한 몫",
+    "빛 궤적: 운동 법칙의 역함수로 구간마다 노출을 정확히 적분한다"
+   ],
+   "scene": "높은 창에서 내려다본 지어낸 사거리의 하루다. 해가 뜨고 그림자가 길을 쓸고 구름이 흐르며, 머문 행인은 반투명한 유령이 되고, 해가 진 뒤에는 차와 트램이 붉고 흰 빛의 강이 되고, 창이 하나씩 켜지고, 산봉우리 위 북극성을 중심으로 별 궤적이 자란다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/160-time-lapse/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/160-time-lapse/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/160-time-lapse/NOTES.md"
+  },
+  {
+   "id": "161-datamosh",
+   "number": 161,
+   "title": "녹아내리는 컷",
+   "tech": "데이터모시 · 키프레임을 빼면 움직임 벡터가 앞 장면을 끌고 간다",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "three-js"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "I 프레임과 P 프레임: 디코더가 실제로 하는 일",
+    "장면을 그리는 식이 곧 벡터장이다",
+    "키프레임 없는 디코딩을 닫힌 식으로 푼다",
+    "잔차: 새 장면이 어디부터 스며드는가"
+   ],
+   "scene": "꽃병 정물에서 키프레임을 지운 컷으로 꽃이 잉어 연못의 소용돌이를 타고 녹아내리다 다음 I 프레임에서 깨끗한 연못이 되고, 같은 P 프레임을 42번 되풀이한 블룸으로 연못이 바깥으로 번진 뒤 턴테이블과 핫핑크 제목 \"녹는 여름\"이 선명하게 들어온다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/161-datamosh/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/161-datamosh/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/161-datamosh/NOTES.md"
+  },
+  {
+   "id": "162-relight",
+   "number": 162,
+   "title": "성냥 하나의 방",
+   "tech": "평면 그림 재조명 · 높이맵 노멀 + 화면 공간 그림자 + 빛 색온도",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "three-js",
+    "color"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "모양에서 높이: 부호 거리장 + 단면 곡선",
+    "물건마다 바닥 높이, 수평면은 기울인 경사",
+    "높이에서 노멀: 소벨",
+    "손으로 칠한 느낌: 붓결 높이 + 오목 AO"
+   ],
+   "scene": "어두운 다락방에서 성냥 하나가 촛불을 켜고, 잠든 고양이가 깨어나고, 새벽 해가 창으로 들어와 따뜻한 촛불과 차가운 햇빛이 한 그림 위에서 섞인다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/162-relight/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/162-relight/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/162-relight/NOTES.md"
+  },
+  {
+   "id": "163-pov-wakeup",
+   "number": 163,
+   "title": "눈 뜨는 아침",
+   "tech": "1인칭 시점 · 눈꺼풀 마스크 + 초점 맞춤 + 걸음 흔들림 + 노출 순응",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "three-js",
+    "camera"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "눈꺼풀 마스크: 개구도 a(t) 하나가 움직이는 베지어 눈꺼풀 두 장",
+    "초점 맞춤: 지수로 줄어드는 흐림 반경, 반 해상도 보겔 원반 수집",
+    "고개 돌림: 고정점을 겨누는 각도 목표 + 감쇠 스프링, 목 피벗에서 생기는 시차",
+    "걸음 흔들림: 걸은 거리에 위상이 묶인 머리 궤적"
+   ],
+   "scene": "어둡고 붉은 감은 눈에서 시작해 눈꺼풀이 무겁게 열리고, 흐린 천장이 두 번의 깜빡임 끝에 또렷해진 뒤, 울리는 토마토색 자명종(7:00)을 내 손으로 끄고 일어나 창가로 걸어가 커튼을 열면 하얗게 넘친 빛이 가라앉으며 햇빛 드는 마을이 나타난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/163-pov-wakeup/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/163-pov-wakeup/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/163-pov-wakeup/NOTES.md"
+  },
+  {
+   "id": "164-shot-coverage",
+   "number": 164,
+   "title": "마지막 한 조각",
+   "tech": "숏 문법 · 한 무대 여러 카메라 + 180도 규칙 + 동작에서 자르기",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "three-js",
+    "camera"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "숏 하나 = 데이터 한 줄: 렌즈 mm → 화각, 프레이밍 비율 → 거리",
+    "자리와 겨누기: 피사체가 화면의 (sx, sy)에 정확히 오도록 롤 없이 팬·틸트한다",
+    "180도 규칙: 축선 A→B의 한쪽 반평면, 2D 외적의 부호로 검사한다",
+    "치팅(cheat)"
+   ],
+   "scene": "딸기 하나를 두고 둘이 노려보는 사이 컷이 점점 짧아지고, 동작 중간에 부감으로 잘라 포크가 맞부딪치면, 긴 와이드에서 딸기를 문 고양이가 드러난다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/164-shot-coverage/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/164-shot-coverage/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/164-shot-coverage/NOTES.md"
+  },
+  {
+   "id": "165-smear-frames",
+   "number": 165,
+   "title": "도토리 낚아채기",
+   "tech": "작화 연출 · 스미어 · 다중상 · 2프레임 찍기 + 타이밍 차트",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "particles",
+    "data-viz"
+   ],
+   "libraries": [],
+   "points": [
+    "층마다 다른 찍기: t_k = floor(t·fps)/fps",
+    "간격 차트: 이징을 곡선이 아니라 그림의 자리로 적는다",
+    "스미어: 앞 그림에서 이번 그림까지 쓸고 간 모양",
+    "실루엣 하나 = 먹 스트로크 위에 채우기"
+   ],
+   "scene": "가을 숲 나뭇가지의 다람쥐가 건너편에 매달린 도토리를 노려보다 웅크리고 숨을 참은 뒤, 그림 몇 장 만에 틈을 건너 도토리를 낚아챈다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/165-smear-frames/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/165-smear-frames/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/165-smear-frames/NOTES.md"
+  },
+  {
+   "id": "166-bullet-time",
+   "number": 166,
+   "title": "물풍선이 멈춘 순간",
+   "tech": "불릿 타임 · 장면 시간 τ(t)와 카메라 시간 분리 + 카메라 레일",
+   "group": "video-craft",
+   "group_name": "영상 표현력",
+   "tags": [
+    "three-js",
+    "camera"
+   ],
+   "libraries": [
+    "three.js"
+   ],
+   "points": [
+    "두 시계: 장면 시간은 속도 곡선을 닫힌 식으로 적분한 τ(t)",
+    "카메라 레일: 가상 카메라 9대를 지나는 스플라인을 호 길이로 매개화해 달린다",
+    "멈춘 순간의 몸통과 찢어짐 선: τ의 닫힌 식",
+    "고무: 물에 붙은 모자 + 바깥으로 말리는 입술"
+   ],
+   "scene": "여름 잔디밭의 스프링클러 노즐에 귤색 물풍선이 떨어져 찢어지는 순간 시간이 멈추고, 카메라가 고무가 벗겨지며 물이 풍선 모양 그대로 떠 있는 순간을 반 바퀴 돈 뒤 시간이 다시 흘러 물이 잔디에 터진다.",
+   "live_url": "https://dogebi.github.io/cokacmotion/166-bullet-time/",
+   "poster_url": "https://dogebi.github.io/cokacmotion/166-bullet-time/out/poster.jpg",
+   "notes_url": "https://github.com/dogebi/cokacmotion/blob/main/skills/aimotion/demos/166-bullet-time/NOTES.md"
+  }
+ ]
+}

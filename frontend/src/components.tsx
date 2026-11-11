@@ -11,6 +11,7 @@ export const CHANNEL_NAME = '북유모'
 
 export function TopBar() {
   const { data: categories } = useQuery({ queryKey: ['categories'], queryFn: api.getCategories })
+  const { data: demos } = useQuery({ queryKey: ['aimotion'], queryFn: api.getDemos })
 
   return (
     <header className="topbar">
@@ -34,6 +35,21 @@ export function TopBar() {
                 <Link key={c.slug} to={`/c/${c.slug}`}>
                   {c.name}
                   <span>{c.video_count}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+          <div className="nav-drop">
+            <button type="button">데모 ▾</button>
+            <div className="drop drop-tall">
+              <Link to="/demos">
+                전체 데모
+                <span>{demos?.count ?? 166}</span>
+              </Link>
+              {(demos?.groups ?? []).map((g) => (
+                <Link key={g.slug} to={`/demos/${g.slug}`}>
+                  {g.name}
+                  <span>{g.demo_count}</span>
                 </Link>
               ))}
             </div>
@@ -65,6 +81,7 @@ export function Footer() {
           <Link to="/">홈</Link>
           <Link to="/tags">태그</Link>
           <Link to="/videos">전체 영상</Link>
+          <Link to="/demos">데모 166편</Link>
           <a href={CHANNEL_URL} target="_blank" rel="noreferrer">
             YouTube
           </a>

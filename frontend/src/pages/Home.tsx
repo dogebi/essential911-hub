@@ -8,6 +8,7 @@ export default function HomePage() {
     queryKey: ['home'],
     queryFn: api.getHome,
   })
+  const { data: demos } = useQuery({ queryKey: ['aimotion'], queryFn: api.getDemos })
 
   return (
     <>
@@ -83,6 +84,45 @@ export default function HomePage() {
                     </div>
                   </Link>
                 ))}
+              </div>
+            </div>
+          </section>
+
+          <section className="band" id="demos">
+            <div className="container">
+              <div className="band-head">
+                <h2>aimotion 데모 라이브러리</h2>
+                <p>
+                  웹 그래픽 표현 기법 {demos?.count ?? 166}편을 {demos?.group_count ?? 12}개 분류와
+                  태그로 정리했습니다. 카드를 누르면 데모가 바로 재생됩니다.
+                </p>
+              </div>
+              <div className="demo-tiles">
+                {(demos?.groups ?? []).map((g) => {
+                  const picks = (demos?.demos ?? [])
+                    .filter((d) => d.group === g.slug && d.poster_url)
+                    .slice(0, 3)
+                  return (
+                    <Link to={`/demos/${g.slug}`} className="demo-tile" key={g.slug}>
+                      <div className="demo-strip" aria-hidden="true">
+                        {picks.map((d) => (
+                          <img key={d.id} src={d.poster_url} alt="" loading="lazy" />
+                        ))}
+                        {picks.length === 0 && <span className="demo-noposter" />}
+                      </div>
+                      <div className="demo-tile-text">
+                        <strong>{g.name}</strong>
+                        <span className="demo-tile-n">{g.demo_count}편</span>
+                        <p>{g.description}</p>
+                      </div>
+                    </Link>
+                  )
+                })}
+              </div>
+              <div className="center">
+                <Link to="/demos" className="btn-outline">
+                  데모 전체 보기 →
+                </Link>
               </div>
             </div>
           </section>

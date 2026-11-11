@@ -24,6 +24,7 @@
 | `backend/` | Rust + axum + sqlx API. 스키마·시드는 바이너리에 내장(`include_str!`)되어 첫 실행 시 자동 적용 |
 | `frontend/` | React 18 + TypeScript + Vite. 라우트: `/` `/videos` `/tags` `/c/:slug` `/t/:slug` `/v/:id` |
 | `data/seed.json` | 유튜브 채널에서 수집한 영상·카테고리·태그 스냅샷(백엔드 시드 + 정적 빌드의 원본) |
+| `data/aimotion.json` | aimotion 웹 데모 라이브러리(166편·12분류·태그) 카탈로그. `frontend/public/data/` 사본을 SPA가 읽는다 |
 | `e2e/` | Playwright E2E — API 모드(실서버) + 정적 모드(GitHub Pages) 두 프로젝트 |
 | `scripts/` | 채널 수집 → 시드 생성 → 스냅샷 → 정적 서버 실행 |
 | `deploy/` | GitHub Pages 워크플로, Dockerfile, render.yaml (백엔드 호스팅용) |
@@ -49,6 +50,23 @@ STATIC_DIR=../frontend/dist
 ```
 
 첫 기동 시 `data/seed.json`을 자동 주입합니다. 다시 주입하려면 `POST /api/reseed`.
+
+## 데모 라이브러리 (aimotion)
+
+`/demos` 는 [cokacmotion](https://dogebi.github.io/cokacmotion/) 의 웹 그래픽 데모 **166편**을
+**12개 분류 + 태그 44개**로 찾아보는 섹션입니다. 카드를 누르면 배포된 데모가 새 탭에서 재생되고,
+분류·태그는 URL로 남습니다: `/demos`, `/demos/:group`, `/demos?tag=shader`, `/demos?q=오로라`.
+
+데모 카탈로그는 영상 API와 분리된 **정적 자산**(`frontend/public/data/aimotion.json`)이라
+백엔드 없이도 동작합니다. 원본 `index.json`에서 다시 만들려면:
+
+```bash
+python3 scripts/build_aimotion.py                 # 기본: /mnt/d/dev/cokacmotion/skills/aimotion/index.json
+COKACMOTION_INDEX=/path/index.json SITE_BASE=https://<org>.github.io/cokacmotion python3 scripts/build_aimotion.py
+```
+
+분류는 원본 스킬의 12개 그룹을 그대로 쓰고, 태그는 각 데모의 `libraries`(three.js, GSAP, d3 …)와
+`tech` 문구에 대한 규칙표로 붙입니다. 규칙에 걸리지 않는 데모는 분류 자체를 태그로 달아 미분류가 없습니다.
 
 ## API
 

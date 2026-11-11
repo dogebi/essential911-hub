@@ -61,6 +61,51 @@ export interface VideoDetailData {
 export type KindFilter = 'all' | 'short' | 'long'
 export type SortFilter = 'latest' | 'weekly' | 'popular'
 
+// ---------------------------------------------------------------- aimotion demos
+// 166 short web-graphics demos published at <site>/<id>/ — static snapshot only
+// (frontend/public/data/aimotion.json), independent of the video API.
+
+export interface DemoItem {
+  id: string
+  number: number
+  title: string
+  tech: string
+  group: string
+  group_name: string
+  tags: string[]
+  libraries: string[]
+  points: string[]
+  scene: string
+  live_url: string
+  poster_url: string
+  notes_url: string
+}
+
+export interface DemoGroup {
+  slug: string
+  name: string
+  description: string
+  sort_order: number
+  demo_count: number
+}
+
+export interface DemoTag {
+  slug: string
+  name: string
+  demo_count: number
+}
+
+export interface DemoCatalog {
+  site: string
+  repo: string
+  generated_at: string
+  count: number
+  group_count: number
+  groups: DemoGroup[]
+  tags: DemoTag[]
+  demos: DemoItem[]
+}
+
 export interface ListQuery {
   limit?: number
   offset?: number

@@ -54,8 +54,10 @@ STATIC_DIR=../frontend/dist
 ## 데모 라이브러리 (aimotion)
 
 `/demos` 는 [cokacmotion](https://dogebi.github.io/cokacmotion/) 의 웹 그래픽 데모 **166편**을
-**12개 분류 + 태그 44개**로 찾아보는 섹션입니다. 카드를 누르면 배포된 데모가 새 탭에서 재생되고,
-분류·태그는 URL로 남습니다: `/demos`, `/demos/:group`, `/demos?tag=shader`, `/demos?q=오로라`.
+**12개 분류 + 태그 44개**로 찾아보는 섹션입니다. 카드를 누르면 허브 안의 `/demo/:id` 화면에서
+데모가 **iframe으로 바로 재생**되고(새 탭으로 나가지 않음), 분류·태그는 URL로 남습니다:
+`/demos`, `/demos/:group`, `/demo/:id`, `/demos?tag=shader`, `/demos?q=오로라`.
+상세 화면에는 기법 요약·배울 점·같은 분류의 다른 데모가 함께 나오고, 전체 화면/새 탭/구현 노트 링크가 있습니다.
 
 데모 카탈로그는 영상 API와 분리된 **정적 자산**(`frontend/public/data/aimotion.json`)이라
 백엔드 없이도 동작합니다. 원본 `index.json`에서 다시 만들려면:

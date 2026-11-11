@@ -7,6 +7,7 @@ import CategoryPage from './pages/Category'
 import TagPage from './pages/TagPage'
 import TagsPage from './pages/TagsPage'
 import DemosPage from './pages/Demos'
+import DemoDetailPage from './pages/DemoDetail'
 
 function NotFound() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/tags" element={<TagsPage />} />
           <Route path="/demos" element={<DemosPage />} />
           <Route path="/demos/:group" element={<DemosPage />} />
+          <Route path="/demo/:id" element={<DemoDetailPage />} />
           <Route path="/c/:slug" element={<CategoryPage />} />
           <Route path="/t/:slug" element={<TagPage />} />
           <Route path="/v/:id" element={<DetailPage />} />

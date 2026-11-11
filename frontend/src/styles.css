@@ -535,6 +535,41 @@ button.chip.on .chip-n { color: #ccfbf1; }
   -webkit-line-clamp: 2;
 }
 
+/* demo detail — the demo plays inside the hub (cross-origin iframe, no X-Frame-Options on Pages) */
+.demo-detail { display: grid; grid-template-columns: minmax(0, 430px) minmax(0, 1fr); gap: 40px; align-items: start; margin-top: 20px; }
+.demo-frame {
+  overflow: hidden;
+  aspect-ratio: 9 / 16;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #0d0d0f;
+  box-shadow: 0 16px 40px #0f1d2b1f;
+}
+.demo-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+.demo-hint { margin: 12px 0 0; color: var(--muted); font-size: 12.5px; line-height: 1.65; }
+.demo-hint code { padding: 1px 5px; border-radius: 5px; background: var(--band); font-size: 12px; }
+
+.demo-info { padding-top: 4px; }
+.demo-num-lg { display: block; color: var(--teal-700); font-size: 13px; font-weight: 800; letter-spacing: 0.08em; }
+.demo-info h1 { margin: 8px 0 8px; font-size: 30px; font-weight: 800; line-height: 1.25; }
+.demo-tech-lg { margin: 0 0 16px; color: var(--muted); font-size: 15px; }
+.demo-pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.demo-pill { padding: 6px 12px; border-radius: 10px; background: #f3f4f6; color: #374151; font-size: 13.5px; font-weight: 600; }
+.demo-tags-lg { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 20px; }
+.demo-tags-lg .demo-tag { padding: 4px 9px; font-size: 12.5px; }
+.demo-tags-lg .demo-tag:hover { background: #ccfbf1; }
+.demo-points h2 { margin: 0 0 8px; font-size: 15px; font-weight: 800; }
+.demo-points ul { margin: 0 0 18px; padding-left: 18px; color: #374151; font-size: 14.5px; line-height: 1.75; }
+.demo-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.demo-actions .btn-outline, .demo-actions .btn-ghost { padding: 9px 16px; cursor: pointer; }
+.demo-related { margin-top: 48px; }
+.demo-related h2 { margin: 0 0 16px; font-size: 20px; font-weight: 800; }
+
+@media (width <= 760px) {
+  .demo-detail { grid-template-columns: 1fr; gap: 24px; }
+  .demo-info h1 { font-size: 24px; }
+}
+
 @media (width <= 1024px) {
   .row-track { grid-auto-columns: calc(33.3333% - 16px); }
   .grid, .cat-grid { grid-template-columns: repeat(3, 1fr); }

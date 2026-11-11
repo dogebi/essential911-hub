@@ -5,16 +5,15 @@ import * as api from '../api'
 import { SkeletonGrid } from '../components'
 import type { DemoCatalog, DemoGroup, DemoItem } from '../types'
 
-/** 카드 한 장 — 클릭하면 배포된 데모가 새 탭에서 재생된다. */
+/** 카드 한 장 — 허브 안의 상세 화면(/demo/:id)에서 데모를 재생한다. */
 function DemoCard({ d, tagNames }: { d: DemoItem; tagNames: Map<string, string> }) {
   return (
-    <a
+    <Link
       className="demo-card"
-      href={d.live_url}
-      target="_blank"
-      rel="noreferrer"
+      to={`/demo/${d.id}`}
       data-testid="demo-card"
       title={`${d.title} — ${d.tech}`}
+      aria-label={`${d.title} 데모 재생`}
     >
       <div className="demo-poster">
         {d.poster_url ? (
@@ -38,7 +37,7 @@ function DemoCard({ d, tagNames }: { d: DemoItem; tagNames: Map<string, string> 
           ))}
         </div>
       </div>
-    </a>
+    </Link>
   )
 }
 

@@ -1,5 +1,5 @@
 {
- "total_videos": 25,
+ "total_videos": 27,
  "popular": [
   {
    "id": "hro26BooCfw",
@@ -223,8 +223,34 @@
    "slug": "puzzle",
    "name": "그림 퀴즈",
    "description": "틀린 그림 찾기, 100% 못 맞추는 이미지 시리즈. 한 장면에서 다른 곳을 찾는 클립입니다.",
-   "video_count": 8,
+   "video_count": 9,
    "videos": [
+    {
+     "id": "C-xKHUTiIdM",
+     "title": "신젝슨",
+     "published_at": "2026-11-16T00:00:00Z",
+     "duration_seconds": 89,
+     "kind": "long",
+     "thumbnail_url": "https://i.ytimg.com/vi/C-xKHUTiIdM/hq720.jpg",
+     "view_count": 1,
+     "like_count": 0,
+     "categories": [
+      {
+       "slug": "puzzle",
+       "name": "그림 퀴즈"
+      }
+     ],
+     "tags": [
+      {
+       "slug": "그림찾기",
+       "name": "그림찾기"
+      },
+      {
+       "slug": "quiz",
+       "name": "퀴즈"
+      }
+     ]
+    },
     {
      "id": "xHwbIA0FhXU",
      "title": "100% 못맞추는 그림",
@@ -807,8 +833,25 @@
    "slug": "misc",
    "name": "사운드·기타",
    "description": "음식·음악처럼 시리즈로 묶이지 않는 단발 소재.",
-   "video_count": 2,
+   "video_count": 3,
    "videos": [
+    {
+     "id": "Y6pPOvnoJ5s",
+     "title": "짱구 커피",
+     "published_at": "2026-11-12T00:00:00Z",
+     "duration_seconds": 189,
+     "kind": "long",
+     "thumbnail_url": "https://i.ytimg.com/vi/Y6pPOvnoJ5s/hq720.jpg",
+     "view_count": 1,
+     "like_count": 0,
+     "categories": [
+      {
+       "slug": "misc",
+       "name": "사운드·기타"
+      }
+     ],
+     "tags": []
+    },
     {
      "id": "PZosdYiDdJY",
      "title": "GROOVE POP- 귀를 쨰려봐",
@@ -878,12 +921,12 @@
   {
    "slug": "그림찾기",
    "name": "그림찾기",
-   "video_count": 8
+   "video_count": 9
   },
   {
    "slug": "quiz",
    "name": "퀴즈",
-   "video_count": 8
+   "video_count": 9
   },
   {
    "slug": "netlify",

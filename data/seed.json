@@ -1,6 +1,6 @@
 {
   "source": "https://www.youtube.com/@essential911",
-  "generated_at": "2026-11-10T09:20:31.334332Z",
+  "generated_at": "2026-11-16T09:05:27.627082Z",
   "categories": [
     {
       "slug": "puzzle",
@@ -62,6 +62,41 @@
     }
   ],
   "videos": [
+    {
+      "id": "C-xKHUTiIdM",
+      "title": "신젝슨",
+      "description": "백퍼 못찾는 이미지 찾기 -퀴",
+      "published_at": "2026-11-16T00:00:00Z",
+      "duration_seconds": 89,
+      "kind": "long",
+      "thumbnail_url": "https://i.ytimg.com/vi/C-xKHUTiIdM/hq720.jpg",
+      "view_count": 1,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "puzzle"
+      ],
+      "tags": [
+        "그림찾기",
+        "quiz"
+      ]
+    },
+    {
+      "id": "Y6pPOvnoJ5s",
+      "title": "짱구 커피",
+      "description": "짱구 커피",
+      "published_at": "2026-11-12T00:00:00Z",
+      "duration_seconds": 189,
+      "kind": "long",
+      "thumbnail_url": "https://i.ytimg.com/vi/Y6pPOvnoJ5s/hq720.jpg",
+      "view_count": 1,
+      "like_count": 0,
+      "weekly_views": null,
+      "categories": [
+        "misc"
+      ],
+      "tags": []
+    },
     {
       "id": "PZosdYiDdJY",
       "title": "GROOVE POP- 귀를 쨰려봐",
